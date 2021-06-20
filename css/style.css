@@ -29,7 +29,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .hamburger {
@@ -56,10 +56,12 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-right: 3rem;
 }
 
 .nav-item {
   margin-left: 5rem;
+  padding: 1rem;
 }
 
 .nav-link {
@@ -72,7 +74,19 @@ a {
   color: blue;
 }
 
-@media only screen and (max-width: 768px) {
+.offerte span a {
+  color: #fff;
+  padding: 1rem;
+  background-color: #5271ff;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.offerte span a:hover {
+  color: black;
+}
+
+@media only screen and (max-width: 992px) {
   .nav-menu {
     position: fixed;
     left: -100%;
@@ -87,8 +101,6 @@ a {
     text-align: center;
     -webkit-transition: 0.3s;
     transition: 0.3s;
-    -webkit-box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-            box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
   }
   .nav-menu.active {
     left: 0;
