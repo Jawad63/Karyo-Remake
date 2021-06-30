@@ -14,9 +14,7 @@ padding-top: 5px;
 }
 
 
-.wrapper div {
-    margin: 1rem;
-}
+
 
 h4 {
     font-family: 'Lato', sans-serif;
@@ -46,7 +44,16 @@ hr {
     
 }
 
-.container {
+.wrapper{
+    margin: 1rem;
+    border: 2px solid cadetblue;
+    padding: 2rem;
+}
+
+
+.container{
+    padding: 2rem;
+    border: 2px solid salmon;
     background-color: white;
     text-align: center;
     height: 100%;
@@ -58,29 +65,42 @@ hr {
 }
 
 .teamcard-one {
+    padding: 1rem;
     background-color: white;
     grid-area: teamcard-one;
     border: solid grey 1px;
     width: 230px;
     height: 470px;
+    margin: auto;
+    padding: auto;
+}
+
+.firstone {
+    padding-top: 2.5rem;
 }
 
 
 .teamcard-two {
+    padding: 1rem;
     background-color: white;
     grid-area: teamcard-two;
     border: solid grey 1px;
     width: 230px;
     height: 470px;
+    margin: auto;
+    padding: auto;
 }
 
 
 .teamcard-three {
+    padding: 1rem;
     background-color: white;
     grid-area: teamcard-three;
     border: solid grey 1px;
     width: 230px;
     height: 470px;
+    margin: auto;
+    padding: auto;
 }
 
 
