@@ -19,6 +19,97 @@ a {
   text-decoration: none;
 }
 
+.diensten-card-subheading h3 {
+  color: #5165BD;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.heading-mainpage h3 {
+  color: #5271ff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.9rem;
+  text-align: center;
+}
+
+.services-subheading h3 {
+  color: goldenrod;
+  font-size: 20.8px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card-secondtext p {
+  color: black;
+  text-align: center;
+}
+
+.card-thirdtext p {
+  color: grey;
+  text-align: center;
+}
+
+.service-section-text p {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.footer-contact-title p {
+  color: black;
+  font-weight: bold;
+  text-align: left;
+}
+
+.portfolio-text p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.footer-contact-text .beoordelingen-text p {
+  color: black;
+}
+
+.team-card-firstsubheading h4 {
+  font-weight: bold;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.team-card-secondsubheading h4 {
+  color: #5271ff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.heading-underline {
+  width: 4.5rem;
+  height: .2rem;
+  background-color: #5271ff;
+}
+
+.referenties-list li {
+  display: list-item;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.portfolio-list li {
+  display: list-item;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.button {
+  background-color: #5271ff;
+  color: white !important;
+  text-transform: uppercase;
+  font-size: .9rem;
+}
+
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
