@@ -81,7 +81,7 @@ a {
 
 .team-card-secondsubheading h4 {
   color: #5271ff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
 }
 
@@ -89,6 +89,8 @@ a {
   width: 4.5rem;
   height: .2rem;
   background-color: #5271ff;
+  margin: auto;
+  margin-top: 5px;
 }
 
 .referenties-list li {

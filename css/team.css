@@ -1,0 +1,92 @@
+@import url(./style.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+    background-color: white;
+}
+
+
+.logo-socials {
+letter-spacing: 8px;
+margin: auto;
+padding-top: 5px;
+}
+
+
+.wrapper div {
+    margin: 1rem;
+}
+
+h4 {
+    font-family: 'Lato', sans-serif;
+    margin: -5px;
+    padding-bottom: 5px;
+    
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    word-spacing: 3px;
+    padding: 20px;
+    line-height: 25px;
+    opacity: 75%;
+}
+
+hr {
+    text-align: center;
+    width: 85%;
+    margin: auto;
+    opacity: 50%;
+    
+    
+}
+
+.container {
+    background-color: white;
+    text-align: center;
+    height: 100%;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    ". teamcard-one teamcard-two teamcard-three .";
+}
+
+.teamcard-one {
+    background-color: white;
+    grid-area: teamcard-one;
+    border: solid grey 1px;
+    width: 230px;
+    height: 470px;
+}
+
+
+.teamcard-two {
+    background-color: white;
+    grid-area: teamcard-two;
+    border: solid grey 1px;
+    width: 230px;
+    height: 470px;
+}
+
+
+.teamcard-three {
+    background-color: white;
+    grid-area: teamcard-three;
+    border: solid grey 1px;
+    width: 230px;
+    height: 470px;
+}
+
+
+.card-image img {
+    border-radius: 50%;
+    height: 180px;
+}
+
+
