@@ -1,157 +1,134 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=PT+Sans:wght@400;700&display=swap');
-
-
-.wrapper{
-    display: grid;
-    grid-template-columns: 2fr 3fr 2fr;
-    grid-template-rows: minmax(350px, auto);
-    margin: 0;
-    padding:  var(--body-pad-top) 45px;
-    min-width: 350px;
-    align-items: start;
-    justify-content: center;
-    gap: 5rem;
-    font: 16px/1.3 'PT Sans', sans-serif;
-    color: #333;
-    background-color: white;
+body {
+  background: grey;
 }
 
 
-html {
-    scroll-behavior: smooth;
+.wrapper {
+  background: white;
+  padding: auto;
+  margin: auto;
 }
 
-:root {
-    --highlight: #49b1be;
-    --body-pad-top: 70px;
-    margin: 0;
-    padding: 0;
-  }
+.services-container {
+  display: grid;
+  grid-auto-columns: 0.25fr 2fr 0.25fr 2fr 0.25fr;
+  margin: auto;
+  grid-gap: 1rem;
+  grid-template-areas: 
+  ". image-one . text-one ."
+  ". text-two . image-two ."
+  ". image-three . text-three ."
+  ". text-four . image-four ."
+  ". image-five . text-five ."
+  ". text-six . image-six ."
+  ". image-seven . text-seven .";
+}
+
+.text-one {
+  grid-area: text-one;
+  margin: auto;
+  margin-top: 2rem;
+  padding-left: 3rem;
+}
 
 
-  nav {
-    position: sticky;
-    left: 0;
-    top: var(--body-pad-top);
-    line-height: 2;
-    text-align: left;
-  }
+.text-two {
+  grid-area: text-two;
+  margin: auto;
+  margin-top: 2rem;
+  padding-left: 3rem;
+}
 
 
-  article {
-    margin-top: -50px;
-    padding-top: 50px;
-  }
-  
-  /* === Navbar and marker === */
-  
-  nav ul {
-    margin: 0;
-    padding-left: 10px;
-    list-style: none;
-    
-  }
+.text-three {
+  grid-area: text-three;
+  margin: auto;
+  margin-top: 25px;
+  padding-left: 3rem;
+}
 
-  nav li > ul {
-    padding-left: 30px;
-    
-  }
-  
-  nav a {
-    display: inline-block;
-    color: #7f7f7f;
-    text-decoration: none;
-    transition: all 300ms ease-in-out;
-    font-weight: 700;
-    font-size: 18px;
-  }
-    
-  nav li.visible > a {
-    color: #222;
-    transform: translate(5px);
-  }
-  
-  nav svg {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-  }
-  
-  nav path {
-    transition: all 300ms ease;
-    fill: transparent;
-    stroke: var(--highlight);
-    stroke-width: 3px;
-    stroke-dasharray: 0 0 0 1000;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-  }
-  
-  /* === Body contents === */
-  
-  section[id] {
-    margin: 25px 0;
-    padding: 25px 0;
-  }
+.text-four {
+  grid-area: text-four;
+  margin: auto;
+  margin-top: 2rem;
+  padding-left: 3rem;
+}
 
 
-  h1, h2 {
-    margin: 0;
-    padding: 0;
-    font-size: 36px;
-  }
-  
-  h2 {
-    padding-left: 10px;
-    border-left: 4px solid var(--highlight);
-    font-size: 24px;
-  }
-  
+.text-five {
+  grid-area: text-five;
+  margin: auto;
+  padding-left: 3rem;
+}
+
+
+.text-six {
+  grid-area: text-six;
+  margin: auto;
+  padding-left: 3rem;
+  padding-top: 27px;
+}
+
+.text-seven {
+  grid-area: text-seven;
+  margin: auto;
+  padding-left: 3rem;
+}
+
+
+
+.image-one {
+  grid-area: image-one;
+  margin: auto;
+}
+
+
+.image-two {
+  grid-area: image-two;
+  margin: auto;
+}
+
+
+.image-three {
+  grid-area: image-three;
+  margin: auto;
+}
+
+.image-four {
+  grid-area: image-four;
+  margin: auto;
+}
+
+
+.image-five {
+  grid-area: image-five;
+  margin: auto;
+}
+
+
+.image-six {
+  grid-area: image-six;
+  margin: auto;
+}
+
+.image-seven {
+  grid-area: image-seven;
+  margin: auto;
+}
+
+
+img {
+  width: 500px;
+  height: 250px;
+  margin: 2rem;
+}
+
+h2 {
+  margin: auto;
+}
+
+
 p {
-    padding-top: 20px;
+  word-spacing: 2px;
+  line-height: 25px;
 }
-
-  h1 span,
-  .subheading {
-    display: block;
-    color: #666;
-    font: 700 20px sans-serif;
-  }
-  
-  article a {
-    color: #222;
-    text-decoration-color: var(--highlight);
-  }
-  
-  article a:hover {
-    margin: -2px;
-    padding: 2px;
-    border: 0;
-    background: var(--highlight);
-  }
-  
-  code {
-    margin: -2px;
-    padding: 2px;
-    background: rgba(0,0,0,.05);
-    font-family: 'PT Mono', monospace;
-    color: #333;
-  }
-  
-  /* === Adjustments === */
-  
-  /* Scroll all the way up even if the first section starts a couple hundred pixels down the page */
-  section:first-of-type {
-    margin-top: -300px;
-    padding-top: 350px;
-  }
-  
-  article,
-  section:last-of-type,
-  section:last-of-type p:last-of-type {
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
