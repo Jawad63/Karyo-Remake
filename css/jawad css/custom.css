@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
 
 * {
     margin: 0;
@@ -9,6 +11,21 @@
 html {
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    padding: env(safe-area-inset);
+
+}
+
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) { }
+
+
+html , body {
+   overflow-x: hidden;
+   font-family: 'Lato' , sans-serif;
+   color: #505962;
 }
 
 li {
@@ -17,124 +34,80 @@ li {
 
 a {
     text-decoration: none;
+
 }
 
 
 /* Navbar styling here : */
+
+.karyo-logo img{
+   width: 200px;
+   height: 80px;
+}
+
+.banner-image {
+   width: 100%;
+   height: 80vh;
+   padding-top: 5rem;
+}
 
 .navbar {
    display: flex;
    justify-content: space-between;
    align-items: center;
    padding: 2rem;
-   background: transparent;
 }
 
-
-/* Hamburger styling : */
-
-.hamburger {
-   display: none;
-}
-
-.bar {
-   display: block;
-   width: 25px;
-   height: 3px;
-   margin: 5px auto;
-   -webkit-transition: all 0.3s ease-in-out;
-   transition: all 0.3s ease-in-out;
-   background-color: #101010;
-}
 
 /* styling for other elements in the header/navbar section  */
 
-.nav-menu {
-   display: flex;
+.navbar-nav{
    justify-content: space-between;
    align-items: center;
-   padding-right: 3rem;
+   letter-spacing: 2px;
 }
 
 .nav-item {
-   margin-left: 2rem;
-   padding: 1rem;
-
+   margin: 1rem;
 }
 
-.nav-link{
-   font-size: 1.6rem;
-   font-weight: 600;
-   color: #5271ff;
+.nav-links {
+   text-transform: uppercase;
+   font-size: 14.4px;
+   font-weight: 700;
+   color: #5271FF;
 }
 
-.nav-link:hover{
+.nav-links:hover {
    color: blue;
 }
 
-.offerte span a{
-   color: #fff;
-   padding: 1rem;
-   background-color: #5271ff;
-   border: 1px solid black;
-   border-radius: 3px;
+.offerte {
+   text-transform: uppercase;
+   font-size: 14.4px;
+   font-weight: 400;
+   color: white;
 }
 
-.offerte span a:hover {
+.offerte:hover {
+   transition: 0.5s;
    color: black;
 }
 
+.btn {
+   background-color: #5271FF;
+}
 
+.navbar-toggler{
+   width: 47px;
+   height: 34px;
+   background-color: #5271FF;
+}
 
-/* making navbar responsive : */
-
-@media only screen and (max-width: 992px) {
-
-   section {
-      width: 100%;
-      max-width: 400px;
-      background-size: cover ;
-      object-fit: cover;
-
-   }
-
-   .nav-menu {
-       position: fixed;
-       left: -100%;
-       top: 5rem;
-       flex-direction: column;
-       background-color: #fff;
-       width: 100%;
-       border-radius: 10px;
-       text-align: center;
-       transition: 0.3s;
-   }
-
-   .nav-menu.active {
-       left: 0;
-   }
-
-   .nav-item {
-       margin: 2.5rem 0;
-   }
-
-   .hamburger {
-       display: block;
-       cursor: pointer;
-   }
-
-   /* JS responsive setting goes in here :  */
-
-   .hamburger.active .bar:nth-child(2) {
-   opacity: 30;
-   }
-
-   .hamburger.active .bar:nth-child(1) {
-   transform: translateY(8px) rotate(45deg);
-   }
-
-   .hamburger.active .bar:nth-child(3) {
-   transform: translateY(-8px) rotate(-45deg);
-   }
-
+.navbar-toggler .line{
+   width: 100%;
+   float: left;
+   height: 2px;
+   background-color: #fff;
+   margin-bottom: 5px;
 }

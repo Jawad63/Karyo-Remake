@@ -1,33 +1,18 @@
-// navbar :
+$(document).ready(function(){
 
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
-
-hamburger.addEventListener("click", mobileMenu);
-
-function mobileMenu() {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
+    $(window).scroll(function(){
+    if($(window).scrollTop()>100)
+    $(".navbar").css({"background-color" : "rgba(0,0,0,.6)"});
+    else {
+        $(".navbar").css({ "background-color": "rgba(0,0,0,0.0)" });
+    }
     
-}
+    });
 
-hamburger.addEventListener("click", mobileMenu);
+});
 
-const navLink = document.querySelectorAll(".nav-link");
-
-navLink.forEach(n => n.addEventListener("click", closeMenu));
-
-function closeMenu() {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-
-}
-
-// adding images effect to portfolio section:
-
-
-
-
+/* "rgba(0,0,0,.5)"  replace this with "white in order to get that dark transparent color and remove the else
+comment." */
 
 
 
