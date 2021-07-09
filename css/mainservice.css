@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+
+body {
+    background: grey;
+}
+
+
+/*        grid and base layout mainsercies           */
+
+
+.wrapper {
+    background-color: rgb(255, 255, 255);
+    padding: auto;
+    margin: auto;
+    
+}
+
+
+
+.services-container {
+    display: grid;
+    background-color: rgb(212, 209, 209);
+    text-align: center;
+    height: 740px;
+    grid-gap: 20px;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    grid-template-areas: 
+    "space-one space-two space-three"
+    "space-four space-five space-six";
+}
+
+
+
+.space-one {
+    grid-area: space-one;
+    margin: auto;
+    margin-top: 11rem;
+}
+
+
+
+.space-two {
+    grid-area: space-two;
+    margin: auto;
+    margin-top: 11rem;
+}
+
+
+
+.space-three {
+    grid-area: space-three;
+    margin: auto;
+    margin-top: 11rem;
+}
+
+
+
+.space-four {
+    grid-area: space-four;
+    margin: auto;
+    margin-bottom: 10rem;
+}
+
+
+
+.space-five {
+    grid-area: space-five;
+    margin: auto;
+    margin-bottom: 10rem;
+}
+
+
+
+.space-six {
+    grid-area: space-six;
+    margin: auto;
+    margin-bottom: 10rem;
+}
+
+
+
+/*        styling for text         */
+
+
+
+.wrapper h3 {
+    text-transform: uppercase;
+    color: rgb(218, 165, 32);;
+    margin-bottom: 1px;
+    letter-spacing: 1px;
+}
+
+
+
+h4{
+    color: white;
+    word-spacing: 3px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+
+
+hr {
+    position: center;
+    width: 5%;
+    background-color: rgb(218, 165, 32);
+    border-color: rgb(218, 165, 32);
+    height: 1px;
+}
+
+
+
+.heading-mainpage {
+    text-align: center;
+    padding-top: -10px;
+}
