@@ -17,7 +17,7 @@ html {
 }
 
 @media only screen 
-    and (device-width: 414px) 
+    and (device-width: 420px) 
     and (device-height: 896px) 
     and (-webkit-device-pixel-ratio: 2) { }
 
@@ -72,31 +72,25 @@ background: grey;
 }
 
 .container-fluid {
-    padding-left: 2rem;
+    padding: 2rem;
 }
 
 .upper-face{
     padding-top: 15%;
 }
     
-
 .space {
     padding-top: 15rem ;
 }
 
 .col {
-    padding: 5px;
+    
+    padding: 1rem;
 }
 
-.row {
-    padding: 5px;
-}
 
-.image-size {
-    width: fit-content;
-    height: fit-content;
-    object-fit: fill;
-}
+
+
 
 
 
