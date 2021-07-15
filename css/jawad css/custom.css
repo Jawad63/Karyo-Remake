@@ -37,11 +37,10 @@ a {
 
 }
 
-/*Here goes the syling for containers: */
+/*Here goes the syling for containers & rows: */
 
-.container-fluid {
-   background-color: white;
-}
+
+
 
 
 /**************************************** Here Starts the styling of Header *******************************************/
@@ -99,6 +98,8 @@ a {
 
 .btn {
    background-color: #5271FF;
+   font-size: 13px;
+   color: white;
 }
 
 .navbar-toggler{
@@ -147,6 +148,12 @@ a {
 }
 
 /**************************************** Here Ends the styling of Header *******************************************/
+
+/**************************************** Here Starts the styling of Header *******************************************/
+.col-lg {
+   padding-bottom: 3rem;
+}
+
 .heading span{
    color: #5271ff;
    font-weight: 700;
@@ -159,25 +166,154 @@ a {
 
 div .heading {
    padding-top: 10% ;
+   padding-bottom: 8%;
 }
 
 .heading:hover span{
    color: blue;
 }
 
-.diensten-row {
-   padding-top: 15rem;
+hr {
+   color: white;
+   border: 2px solid white;
 }
 
-.card {
-   margin: 3rem;
-   border: 2px solid black;
+
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
 }
 
-.card-title {
-   color: #5165BD;
-   text-transform: uppercase;
+
+
+.main-title{
+  color: #2d2d2d;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0.7em 0;
+}
+
+
+.content-main {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.content-main .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content-main:hover .content-overlay{
+  opacity: 1;
+}
+
+.content-image{
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content-main:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 5;
+}
+
+.content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.content-details p{
+  color: #fff;
+  font-size: 16px;
+}
+
+.fadeIn-bottom{
+  top: 80%;
+}
+
+.fadeIn-top{
+  top: 20%;
+}
+
+.fadeIn-left{
+  left: 20%;
+}
+
+.fadeIn-right{
+  left: 80%;
+}
+
+.diensten-text-bottom {
    font-size: 20px;
-   font-weight: 700;
+   font-weight: 500;
+   padding: 15% 2rem 2rem 2rem;
    text-align: center;
 }
+
+.span-black {
+   font-weight: 900;
+   font-size: 20px;
+}
+
+.button-primary{
+   text-align: center;
+   background-color: white;
+   padding-bottom: 4%;
+}
+
+.button-primary:hover {
+   background-color: white;
+}
+
+.btn-primary {
+   font-size: 15px;
+   font-weight: 500;
+   padding: 0.6rem 2rem 0.6rem 2rem;
+}
+
+.hr{
+   border-top: solid 2px black;
+   text-align: center;
+   width: 35%;
+}
+
+
+/**************************************** Here Ends the styling of Diensten *******************************************/
