@@ -83,19 +83,7 @@ background: grey;
     padding-top: 15rem ;
 }
 
-.card-size {
-    position: relative;
-    margin: auto;
-    padding: auto;
-    width: 100%;
-    margin-top: 30px;
-    margin-bottom: 75px;
-}
 
-.caption {
-    position: absolute;
-    background: white;
-}
 
 
 
