@@ -72,7 +72,7 @@ background: grey;
 }
 
 .container-fluid {
-    padding: 2rem;
+    padding: 5rem;
 }
 
 .upper-face{
@@ -83,13 +83,19 @@ background: grey;
     padding-top: 15rem ;
 }
 
-.col {
-    
-    padding: 1rem;
+.card-size {
+    position: relative;
+    margin: auto;
+    padding: auto;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 75px;
 }
 
-
-
+.caption {
+    position: absolute;
+    background: white;
+}
 
 
 
