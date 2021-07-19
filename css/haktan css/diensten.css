@@ -18,14 +18,47 @@ html {
 	padding-top: 20rem;
 }
 
+.col-md-3 {
+	padding: 2rem;
+}
+
 
 img {
 	max-width: 100%;
 	height: auto;
 	vertical-align: middle;
-}
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}   
 
 
+
+
+
+
+
+/********** Styling for img one **************/
+
+.img-hover-zoom--brightness img {
+	transition: transform 1.5s, filter 1.5s ease-in-out;
+	transform-origin: center center;
+	filter: brightness(70%);
+ }
+
+ .img-hover-zoom--brightness:hover img {
+	filter: brightness(110%);
+	transform: scale(1.3);
+ }
+
+/********** Styling for img two **************/
+
+
+
+
+
+
+
+
+/********** Here starts extra shit (removable) **************/
 
 .low-col {
 	padding: 10rem;
