@@ -39,14 +39,14 @@ img {
 /********** Styling for img one **************/
 
 .img-hover-zoom--brightness img {
-	transition: transform 1.5s, filter 1.5s ease-in-out;
+	transition: transform 1s, filter 1.5s ease-in-out;
 	transform-origin: center center;
-	filter: brightness(70%);
+	filter: brightness(60%);
  }
 
  .img-hover-zoom--brightness:hover img {
-	filter: brightness(110%);
-	transform: scale(1.3);
+	filter: brightness(100%);
+	transform: scale(1.045);
  }
 
 /********** Styling for img two **************/
