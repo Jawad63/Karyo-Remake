@@ -23,33 +23,25 @@ html {
 }
 
 
-img {
+.spacing {
 	max-width: 100%;
 	height: auto;
 	vertical-align: middle;
 	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-}   
+} 
 
-
-
-
-
-
-
-/********** Styling for img one **************/
-
-.img-hover-zoom--brightness img {
+.img-hover-zoom--brightness  {
 	transition: transform 1s, filter 1.5s ease-in-out;
 	transform-origin: center center;
 	filter: brightness(60%);
  }
 
- .img-hover-zoom--brightness:hover img {
+ .img-hover-zoom--brightness:hover  {
 	filter: brightness(100%);
 	transform: scale(1.045);
  }
 
-/********** Styling for img two **************/
+
 
 
 
