@@ -309,11 +309,54 @@ hr {
    padding: 0.6rem 2rem 0.6rem 2rem;
 }
 
-.hr{
-   border-top: solid 2px black;
-   text-align: center;
-   width: 35%;
-}
+
 
 
 /**************************************** Here Ends the styling of Diensten *******************************************/
+
+.parallax {
+   /* The image used */
+   background-image: url("/images/general/pexels-life-of-pix-8892.jpg");
+ 
+   /* Set a specific height */
+   min-height: 70rem; 
+ 
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ .heading-service {
+   color: white;
+   font-size: 5rem;
+   font-weight: 600;
+   text-align: center;
+   padding-top: 19rem;
+ }
+
+ .span-service {
+   border-bottom: 5px solid goldenrod;
+ }
+
+ .span-service:hover {
+    color: goldenrod;
+ }
+
+ .heading-service h3:hover {
+    color: goldenrod;
+ } 
+
+ .col-service-bar {
+    padding: 5rem;
+    background: gray;
+    text-align: center;
+ }
+
+
+
+.top-service-bar {
+   padding: 5rem;
+}
+
