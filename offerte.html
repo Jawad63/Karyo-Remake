@@ -97,211 +97,238 @@
  
 <!---------------------------- Here Ends header ------------------------------->
 
+<!---------            OVERLAY !!!!
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col overlay-picture">
+                <img class="w-100" src="./Images/Overlay Pictures/rsz_1cardoverlay2.jpg" alt="">
+        </div>
 
 
+        <div class="custom-card">
+            <div class="text">
+                <h1>Gratis offerte</h1>
+            </div>
+        </div>
+    </div>
+    
+</div>
 
 
+    <div class="row">
+        <div class="col">
+            <img class="" src="./Images/Overlay Pictures/Whiteoverlay.jpg" alt="">
+        </div>
+    </div>
 
 
+    ----->
 
-<div class="container-fluid ">
 
-    <div class="row"></div>
-        <div class="col-md-11">
+<div class="container-fluid">
+
+    <div class="row">
+            <div class="col-md-5 col-spacing">
+        
+                <div class="col title-col-one">
+                        <h3 class="" style="font-weight: bold;">Vraag uw gratis offerte aan!</h3> 
+                    
+                    <p class="lead" style="color: black;">Bouw- of verbouwplannen? Bent u opzoek naar een vloerder op maat die hoogstaande kwaliteit levert? Dan kan u steeds bij ons terecht voor een vrijblijvende en gratis offerte!</p>
+                        <p class="lead" style="color: black;">Vul bijgevoegd formulier zo volledig mogelijk in en wij bezorgen u gratis en vrijblijvend een prijsopgave. Voor renovatie en nieuwbouw zal één van onze verkopers contact met u opnemen voor een bezoek. Indien u reeds plannen heeft, mag u deze uiteraard doormailen.</p>
+                </div>
+
+                <div class="col col-spacing-two">
+                    <strong class="offerte-title">Onze locatie</strong>
+                    <p style="color: black;">Allemanshofstraat 29,<br>Bornem, Belgium</p>
+                    <strong class="offerte-title">Contact Info</strong>
+                    <p style="color: black;">+32 478 44 99 65<br>+32 478 44 99 65<br>info@karyo.be</p>
+            
+                    <ul class="social">
+            
+                        <li>
+                            <a href="https://www.google.com/maps/place/Allemanshofstraat+29,+2880+Bornem/@51.0963542,4.2324589,17z/data=!3m1!4b1!4m5!3m4!1s0x47c392af682de1f3:0x636816523607d294!8m2!3d51.0963542!4d4.2346476">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </a>
+                        </li>
+            
+                        <li>
+                            <a href="tel:+32478449965">
+                                <i class="fas fa-phone"></i>
+                            </a>
+                        </li>
+            
+                        <li>
+                            <a href="mailto:info@karyo.be">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </li>
+            
+                        <li>
+                            <a href="https://www.facebook.com/">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+            
+                        <li>
+                            <a href="https://www.instagram.com/">
+                                <i class="fab fa-instagram-square"></i>
+                            </a>
+                        </li>
+            
+                    </ul>
+                </div>
+            </div>
+
+
+        <div class="col-md-7">
             <form action="contact/offerte.php" method="POST" id="offerte-form" enctype="multipart/form-data">
 
-                <div class="col-md-11 px-0 pl-md-3">
+                <div class="col-md-11 px-0 pl-md-3 ">
                     <div class="col-12 os-animation" data-animation="animate__animated animate__fadeInUp">
-                    <h3 class="heading-special">Persoonlijke info</h3>
-                    <div class="heading-underline-me"></div>
-                </div>
-                   
-                
-                
-                
-
-                        <div class="messages"></div>
-                            <div class="controls">
-
-                            
-                            <p class="lead" style="font-weight: bold;">Naam*</p>
-                        <div class="row">
-                            <div class="col">
-                                <div class="form-group">
-                                Voornaam
-                                <input type="text" id="form_name" class="form-control" name="voornaam" required="required">
-                                </div>
-                            </div>
-
-
-                            <div class="col">
-                                <div class="form-group">
-                                    Achternaam
-                                <input type="text" id="form_name" class="form-control" name="achternaam">
-                                </div>
-                            </div>
+                        <div class="span-div">
+                            <span class="span-service">Persoonlijke info</span>
                         </div>
-                            
+                </div>
+
+                <div class="messages"></div>
+                    <div class="controls">
+
+                    
+                    <p class="lead" style="font-weight: bold;">Naam*</p>
+                <div class="row row justify-content-md-center">
+                    <div class="col">
+                        <div class="form-group">
+                        Voornaam
+                        <input type="text" id="form_name" class="form-control form-control-lg" name="voornaam" required="required">
+                        </div>
+                    </div>
 
 
-                            <p class="lead" style="font-weight: bold;">Thuisadres*</p>
-                            <div class="form-group">
-                                Straat + huisnummer
-                                <input type="text" id="form_name" class="form-control" name="straat" required="required">
-                            </div>
-
-
-                        <div class="row">
-                            <div class="col">
-                                <div class="form-group">
-                                    Stad
-                                    <input type="text" id="form_name" class="form-control" name="stad" required="required">
-                                </div>
-                            </div>
-
-                            <div class="col">
-                                <div class="form-group">
-                                    postcode
-                                <input type="text" id="form_name" class="form-control" name="postcode" required="required">
-                                </div>
-                            </div>
-                        </div>								
-                        
-
-
-                            <div class="row">	
-                                <div class="col">
-                                    <div class="form-group">
-                                    Email
-                                    <input type="email" id="form_name" class="form-control" name="from_email" required="required">
-                                    </div>
-                                </div>
-                            
-
-                                <div class="col">
-                                    <div class="form-group">
-                                        Telefoon
-                                    <input type="text" id="form_name" class="form-control" name="telefoon" required="required">
-                                    </div>
-                                </div>
-                            </div>
-                            
-
-
-
-                            <div class="col px-0 pl-md-3">
-                                <div class="col-12 os-animation" data-animation="animate__animated animate__fadeInUp">
-                                    <h3 class="heading-special">Projectgegevens</h3>
-                                    <div class="heading-underline-me"></div>
-                                </div>
-                        
+                    <div class="col">
+                        <div class="form-group">
+                            Achternaam
+                        <input type="text" id="form_name" class="form-control form-control-lg" name="achternaam">
+                        </div>
+                    </div>
+                </div>
                     
 
-                                <p class="lead" style="font-weight: bold;">WerfAdres</p>	
-                                <div class="form-group">
-                                        Straat + huisnummer
-                                    <input type="text" id="form_name" class="form-control" name="werfadres">
-                                </div>
-                            </div>
-                            
+                <div class="col px-0 pl-md-3">
+                    <p class="lead" style="font-weight: bold;">WerfAdres</p>	
+                    <div class="form-group">
+                            Straat + huisnummer
+                        <input type="text" id="form_name" class="form-control form-control-lg" name="werfadres">
+                    </div>
+                </div>
 
-                            <div class="row">
-                                <div class="col">
-                                    <div class="form-group">
-                                        Stad
-                                        <input type="text" id="form_name" class="form-control" name="werfstad">
-                                    </div>
-                                </div>
-                            
-                                <div class="col">
-                                    <div class="form-group">
-                                        Werf postcode
-                                    <input type="text" id="form_name" class="form-control" name="werfpostcode" >
-                                    </div>
-                                </div>
-                            </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            Stad
+                            <input type="text" id="form_name" class="form-control form-control-lg" name="stad" required="required">
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="form-group">
+                            postcode
+                        <input type="text" id="form_name" class="form-control form-control-lg" name="postcode" required="required">
+                        </div>
+                    </div>
+                </div>								
+                
 
 
-                            <div class="form-group">
-                                Beschrijving
-                                <input type="text" id="form_name" class="form-control" name="beschrijving" >
-                            </div>
+                <div class="row">	
+                    <div class="col">
+                        <div class="form-group">
+                        Email
+                        <input type="email" id="form_name" class="form-control form-control-lg" name="from_email" required="required">
+                        </div>
+                    </div>
+                
+
+                    <div class="col">
+                        <div class="form-group">
+                            Telefoon
+                        <input type="text" id="form_name" class="form-control form-control-lg" name="telefoon" required="required">
+                        </div>
+                    </div>
+                </div>
+                        
+
+
+
+                <div class="col px-0 pl-md-3">
+                    <div class="col-12 os-animation" data-animation="animate__animated animate__fadeInUp">
+                        <div class="span-div">
+                            <span class="span-service">Projectgegevens</span>
+                        </div>
+                    </div>
+            
         
 
-                            <div class="form-group">
-                                <label for="form_name">Bijlage</label>
-                                <input type="file" class="form-control-file" id="form_name" name="attachment">
-                                    Hier kunt u een plan, lastenboek of een foto meesturen. Opgelet: het doorsturen van grote bestanden kan zeer lang duren.
-                            </div>
+                    <p class="lead" style="font-weight: bold;">WerfAdres</p>	
+                    <div class="form-group">
+                            Straat + huisnummer
+                        <input type="text" id="form_name" class="form-control form-control-lg" name="werfadres">
+                    </div>
+                </div>
+                
+
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            Stad
+                            <input type="text" id="form_name" class="form-control form-control-lg" name="werfstad">
+                        </div>
+                    </div>
+                
+                    <div class="col">
+                        <div class="form-group">
+                            Werf postcode
+                        <input type="text" id="form_name" class="form-control form-control-lg" name="werfpostcode" >
+                        </div>
+                    </div>
+                </div>
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        Beschrijving
+                        <input type="text" id="form_name" class="form-control form-control-lg" name="beschrijving" >
+                    </div>
+                </div>
+            </div>
+
+            
+                <div class="col-md-12">
+                    <div class="form-group">
+                            <label for="formFileLg" class="form-label">Large file input example</label>
+                            <input class="form-control form-control-lg" id="form_name" type="file">
+                            Hier kunt u een plan, lastenboek of een foto meesturen. Opgelet: het doorsturen van grote bestanden kan zeer lang duren.
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="form-group">
+                        Geef een korte uitleg over uw project*
+                        <textarea name="message" id="form_message" rows="6" class="form-control form-control-lg" required="required"></textarea>
+                    </div>
+                </div>
 
 
+                <div class="g-recaptcha" data-sitekey="6LfIjEsaAAAAAJ1c8SmgzEDU-esTH1zrCW-hFtiB"></div>
+                <br>
 
-                            <div class="form-group">
-                                Geef een korte uitleg over uw project*
-                                <textarea name="message" id="form_message" rows="6" class="form-control" required="required"></textarea>
-                            </div>
-
-                            <div class="g-recaptcha" data-sitekey="6LfIjEsaAAAAAJ1c8SmgzEDU-esTH1zrCW-hFtiB"></div>
-                            <br>
-
-                            <input type="submit" class="btn btn-primary btn-md" value="Verzenden">
+                <input type="submit" class="btn btn-primary btn-md" value="Verzenden">
 
                 
         
             </form> <!-- End Form -->
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-5 py-5 pr-md-3">
-                <h3 class="color" style="font-weight: bold;">Vraag uw gratis offerte aan!</h3> 
-            
-            <p class="lead" style="color: black;">Bouw- of verbouwplannen? Bent u opzoek naar een vloerder op maat die hoogstaande kwaliteit levert? Dan kan u steeds bij ons terecht voor een vrijblijvende en gratis offerte!
-                <br>
-                <br>
-                Vul bijgevoegd formulier zo volledig mogelijk in en wij bezorgen u gratis en vrijblijvend een prijsopgave. Voor renovatie en nieuwbouw zal één van onze verkopers contact met u opnemen voor een bezoek. Indien u reeds plannen heeft, mag u deze uiteraard doormailen.</p>
-        </div>
-
-        <div class="col-md-5 py-5 pr-md-3">
-            <strong class="lead-location">Onze locatie</strong>
-            <p style="color: black;">Allemanshofstraat 29,<br>Bornem, Belgium</p>
-            <strong class="lead-location">Contact Info</strong>
-            <p style="color: black;">+32 478 44 99 65<br>+32 478 44 99 65<br>info@karyo.be</p>
-    
-            <ul class="social">
-    
-                <li>
-                    <a href="https://www.google.com/maps/place/Allemanshofstraat+29,+2880+Bornem/@51.0963542,4.2324589,17z/data=!3m1!4b1!4m5!3m4!1s0x47c392af682de1f3:0x636816523607d294!8m2!3d51.0963542!4d4.2346476">
-                        <i class="fas fa-map-marker-alt"></i>
-                    </a>
-                </li>
-    
-                <li>
-                    <a href="tel:+32478449965">
-                        <i class="fas fa-phone"></i>
-                    </a>
-                </li>
-    
-                <li>
-                    <a href="mailto:info@karyo.be">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                </li>
-    
-                <li>
-                    <a href="https://www.facebook.com/">
-                        <i class="fab fa-facebook"></i>
-                    </a>
-                </li>
-    
-                <li>
-                    <a href="https://www.instagram.com/">
-                        <i class="fab fa-instagram-square"></i>
-                    </a>
-                </li>
-    
-            </ul>
-        </div>
-    </div> <!-- End Column -->
+   
 
 </div>
 
