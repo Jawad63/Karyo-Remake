@@ -1,4 +1,6 @@
-$(document).ready(function(){
+/* JS for navbar */
+
+$(document).ready(function () {
 
     $(window).scroll(function(){
     if($(window).scrollTop()>100)
@@ -13,6 +15,9 @@ $(document).ready(function(){
 
 /* "rgba(0,0,0,.5)"  replace this with "white in order to get that dark transparent color and remove the else
 comment." */
+
+
+/* JS for diensten image filter : */ 
 
 $('.filter-button').on('click', (e) => {
     const filter = $(e.target).attr('data-filter');
@@ -41,6 +46,8 @@ $('.filter-button').on('click', (e) => {
       }
     }
   });
+
+
 
 
 
