@@ -18,8 +18,19 @@ html {
 	padding-top: 20rem;
 }
 
+
+
+
+
+
+
+.button-underline {
+	padding : 2rem;
+
+}
+
 .col-md-3 {
-	padding: 2rem;
+	padding: 1rem;
 }
 
 
