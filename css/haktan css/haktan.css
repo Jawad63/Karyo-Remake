@@ -69,20 +69,13 @@ h4 {
 
 
 .container-fluid {
-    padding: 8%;
+    padding: 10%;
 }
 
-
-
-.row {
-
-}
 
 .col {
-    padding: 7px;
+    padding: 9px;
 }
-
-
 
 
 .col-spacing {
@@ -90,52 +83,72 @@ h4 {
 }
 
 
+
 .title-col-one  {
     padding-bottom: 0;
 }
+
+
 
 .title-col-one h3 {
     padding-top: 4%;
     padding-bottom: 3%;
 }
 
+
+
 .title-col-one p {
     padding-right: 12%;
     padding-bottom: 2rem;
 }
 
-.col-spacing-two {
-    padding-bottom: 10%;
+
+.social {
+    margin-left: -2.5rem;
 }
+
+
 
 .offerte-title {
     font-size: 16px;
     color: #5271FF;
-    letter-spacing: px;
+    letter-spacing: 3px;
 }
 
-.heading-special {
- 
+
+
+.span-div {
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
+
+
+
+.span-service-one {
+    color: #5271FF;
+    border-bottom: 2.3px solid #5271FF;
+    font-size: 20px;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+    word-spacing: 4px;
+}
+
+
+
+.offerte-small-titles {
+    font-size: 17px;
+    padding-bottom: 2rem;
+}
+
+
 
 .heading-line {
     color: #5271FF;
 }
 
 
-.span-div {
-    text-align: center;
-    padding-bottom: 4rem;
-}
 
-
-.span-service {
-    color: #5271FF;
-    border-bottom: 2.3px solid #5271FF;
-    font-size: 20px;
-    padding-bottom: 0.5rem;
-
-}
 
 
 
