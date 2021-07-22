@@ -56,36 +56,9 @@ html {
 
 
 
-
-
-
-
-
-
-
 /********** Here starts extra shit (removable) **************/
 
-.low-col {
-	padding: 10rem;
-	background-color: lightgray;
-}
 
-
-.low-row {
-	background-color: gray;
-}
-
-
-.test {
-	padding: 5rem;
-	border: 2px solid black;
-}
-
-.low-text {
-	text-align: center;
-	border: 2px solid red;
-	padding: 5rem
-}
 
 
 
