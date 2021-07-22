@@ -28,10 +28,12 @@ html , body {
    color: #505962;
 }
 
+
+
 a {
     text-decoration: none;
  
- }
+}
 
 
 .my-style-img {
@@ -178,25 +180,23 @@ h4 {
 
 
 
-
+.container-offerte {
+    padding-top: 20rem;
+}
 
 
 .offerte-text {
-    padding: 7px;
+    padding: 10px;
 }
 
 
 .col-spacing {
-    padding-top: 4.5rem;
+    padding-top: 10rem;
 }
 
-
-
-.title-col-one  {
-    padding-bottom: 0;
+.icon-fix {
+    
 }
-
-
 
 .title-col-one h3 {
     padding-top: 4%;
@@ -288,17 +288,17 @@ h4 {
 /*          start stylign for Overons content      */
 
 
+.something {
+    padding: 2rem 15% 0 15%;
+}
+
 .col-overons p {
     font-size: 17px;
 }
 
-
-
 .overons-bold {
     color: #5271FF;
 }
-
-
 
 .button-haktan {
     color: white;
@@ -312,12 +312,6 @@ h4 {
     color: black;
 }
 
-
-
-
- 
-
-
 .heading-ref {
     color: #5271ff;
     font-weight: 700;
@@ -328,6 +322,12 @@ h4 {
     border-bottom: 2px solid #5271ff;
 }
 
+.refenties-title {
+    color: #5271ff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 5rem;
+}
 
 .referenties-list {
     list-style: outside;
@@ -338,18 +338,6 @@ h4 {
 
 
 
-.something {
-    padding: 2rem 15% 0 15%;
-}
-
-
-
-.refenties-title {
-    color: #5271ff;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding-top: 5rem;
-}
 /*          end styling for overons content           */  
 /*
 /*           OVERLAY             
