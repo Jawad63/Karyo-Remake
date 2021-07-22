@@ -425,6 +425,10 @@ cite {
 
 /**************************************** Here Ends the styling of Beoordelingen *******************************************/
 
+.team-row {
+   padding-bottom: 10%;
+}
+
 .icons-team{
       word-spacing: 2rem;
 }
