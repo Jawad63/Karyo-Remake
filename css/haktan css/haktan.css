@@ -68,9 +68,7 @@ h4 {
 
 
 
-.container-fluid {
-    padding: 10%;
-}
+
 
 
 .col {
@@ -103,16 +101,30 @@ h4 {
 }
 
 
-.social {
-    margin-left: -2.5rem;
-}
-
-
 
 .offerte-title {
     font-size: 16px;
     color: #5271FF;
     letter-spacing: 3px;
+}
+
+
+
+.offerte-small-titles {
+    font-size: 20px;
+    padding-bottom: 2rem;
+}
+
+
+
+.small-text-styling {
+    font-size: 14px;
+}
+
+
+
+.social {
+    margin-left: -2.5rem;
 }
 
 
@@ -135,21 +147,63 @@ h4 {
 }
 
 
-
-.offerte-small-titles {
-    font-size: 17px;
-    padding-bottom: 2rem;
-}
-
-
-
 .heading-line {
     color: #5271FF;
 }
 
 
 
+.textarea-styling {
+    margin-top: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
+
+
+.box-shadow {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+.textarea-spacing {
+    margin-top: 0.7rem;
+}
+
+
+/*          End styling for offerte content         */
+
+
+/*          start stylign for Overons content      */
+
+.col-overons {
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+.col-overons p {
+    font-size: 16px;
+
+}
+
+
+.overons-bold {
+    color: #5271FF;
+}
+
+
+
+.icon-placement {
+    margin-left: 15.7rem;
+    margin-right: 15.7rem;
+}
+
+
+.btn {
+    background-color: #5271FF;
+    font-size: 13px;
+    color: white;
+ }
 
 
 /*
