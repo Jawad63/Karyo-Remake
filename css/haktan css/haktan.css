@@ -71,8 +71,8 @@ h4 {
 
 
 
-.col {
-    padding: 9px;
+.offerte-text {
+    padding: 7px;
 }
 
 
@@ -147,6 +147,7 @@ h4 {
 }
 
 
+
 .heading-line {
     color: #5271FF;
 }
@@ -176,15 +177,11 @@ h4 {
 
 /*          start stylign for Overons content      */
 
-.col-overons {
-    margin-left: 14%;
-    margin-right: 14%;
-}
 
 .col-overons p {
-    font-size: 16px;
-
+    font-size: 17px;
 }
+
 
 
 .overons-bold {
@@ -193,19 +190,58 @@ h4 {
 
 
 
-.icon-placement {
-    margin-left: 15.7rem;
-    margin-right: 15.7rem;
+.button-haktan {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    background-color: #5271ff;
+    padding: 0.8rem;
+}
+
+.button-haktan:hover {
+    color: black;
 }
 
 
-.btn {
-    background-color: #5271FF;
-    font-size: 13px;
-    color: white;
- }
 
 
+ 
+
+
+.heading-ref {
+    color: #5271ff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 1.9rem;
+    border-bottom: 2px solid #5271ff;
+}
+
+
+.referenties-list {
+    list-style: outside;
+    font-size: 18px;
+    padding-left: 1rem;
+    word-spacing: 3.5px;
+}
+
+
+
+.something {
+    padding: 2rem 15% 0 15%;
+}
+
+
+
+.refenties-title {
+    color: #5271ff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 5rem;
+    padding-left: 15.5%;
+}
+/*          end styling for overons content           */  
 /*
 /*           OVERLAY             
 
@@ -236,7 +272,7 @@ h4 {
 
 
 
-/*          end styling for offerte content           */  
+
 
 
 /*          start styling for portfolio content         */
