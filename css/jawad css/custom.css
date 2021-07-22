@@ -29,11 +29,11 @@ html , body {
 }
 
 li {
-    list-style: none;
+   list-style: none;
 }
 
 a {
-    text-decoration: none;
+   text-decoration: none;
 
 }
 
@@ -43,7 +43,7 @@ a {
 
 
 
-/**************************************** Here Starts the styling of Header *******************************************/
+/**************************************** Here Starts the styling of navbar *******************************************/
 
 .karyo-logo img{
    width: 150px;
@@ -147,7 +147,7 @@ a {
    color: white;
 }
 
-/**************************************** Here Ends the styling of Header *******************************************/
+/**************************************** Here Ends the styling of navbar *******************************************/
 
 /**************************************** Here Starts the styling of Header *******************************************/
 .col-lg {
@@ -386,7 +386,6 @@ hr {
 /**************************************** Here Starts the styling of Beoordelingen *******************************************/
 .col {
    margin: 2rem;
-
 }
 
 /*
@@ -425,6 +424,9 @@ cite {
 
 /**************************************** Here Ends the styling of Beoordelingen *******************************************/
 
+
+/**************************************** Here Starts the styling of Team *******************************************/
+
 .team-row {
    padding-bottom: 10%;
 }
@@ -432,3 +434,16 @@ cite {
 .icons-team{
       word-spacing: 2rem;
 }
+
+/**************************************** Here Ends the styling of Team *******************************************/
+
+/**************************************** Here Starts the styling of over ons *******************************************/
+
+.ref-one {
+   background-color: red;
+}
+
+.ref-two {
+   background-color: red;
+}
+
