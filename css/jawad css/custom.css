@@ -476,6 +476,9 @@ cite {
    border-bottom: 2px solid #5271ff;
 }
 
+.heading-ref:hover {
+   color: blue;
+}
 
 .referenties-list {
    list-style: outside;
@@ -500,6 +503,10 @@ cite {
    text-transform: uppercase;
    padding-bottom: 2rem;
 }
+
+.refenties-title:hover {
+   color: blue;
+}
 /*          end styling for overons content           */  
 
 
@@ -511,6 +518,5 @@ cite {
 .ref-two {
    padding-top: 6.3rem;
    padding-left: 9%;
-
 }
 
