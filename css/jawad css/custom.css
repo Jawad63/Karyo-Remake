@@ -490,23 +490,27 @@ cite {
    padding: 2rem 15% 0 15%;
 }
 
-
+.something-two {
+   padding: 2rem 10% 0 10%;
+}
 
 .refenties-title {
    color: #5271ff;
    font-weight: 700;
    text-transform: uppercase;
-   padding-top: 5rem;
+   padding-bottom: 2rem;
 }
 /*          end styling for overons content           */  
 
 
-
 .ref-one {
-   background-color: red;
+   padding-left: 9%;
 }
 
+
 .ref-two {
-   background-color: red;
+   padding-top: 6.3rem;
+   padding-left: 9%;
+
 }
 
