@@ -561,3 +561,83 @@ cite {
 }
 
       /**************************************** Here Ends the styling of over ons *******************************************/
+
+      /**************************************** Here Starts the styling of Contact *******************************************/
+
+
+
+.container-contact {
+   padding-top: 7rem;
+}
+
+.row-contact {
+   background-image: url(/images/footer/pic\ five-copy.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 5%;
+}
+
+.image-footer {
+   max-width: 100%;
+   height: auto;
+}
+
+.contact-left-section {
+   padding: 2.3rem  2rem 6rem;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.contact-right-section {
+   padding-top: 5rem;
+   margin-right: 2rem;
+}
+
+.contact-title {
+   padding-bottom: 2rem;
+}
+
+.icon-fix-two {
+   padding-top: 1rem;
+   margin-left: -0.7rem;
+}
+
+.span-contact-one {
+   color: #5271ff;
+   font-weight: 700;
+   text-transform: uppercase;
+   font-size: 2.5rem;
+   text-align: center;
+   padding-bottom: 0.7rem;
+   margin-bottom: 3rem;
+   border-bottom: 2px solid #5271ff;
+}
+
+.span-contact-one:hover {
+   color: blue;
+}
+
+.text-area-placement {
+   margin-top: 1.5rem;
+   margin-bottom: 1rem;
+}
+
+.offerte-title {
+   font-size: 1.6rem;
+   color: blue;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+}
+
+.big-text-styling {
+   font-size: 2.5rem;
+   font-weight: 900;
+}
+
+.small-text-styling {
+   font-size: 1.8rem;
+   font-weight: 600;
+}
+
+
+
+
