@@ -147,9 +147,9 @@ a {
    color: white;
 }
 
-/**************************************** Here Ends the styling of navbar *******************************************/
+/**************************************** Here Ends the styling of Header *******************************************/
 
-/**************************************** Here Starts the styling of Header *******************************************/
+/**************************************** Here Starts the styling of Diensten section *******************************************/
 .col-lg {
    padding-bottom: 3rem;
 }
@@ -314,6 +314,7 @@ hr {
 
 /**************************************** Here Ends the styling of Diensten *******************************************/
 
+/**************************************** Here Starts the styling of Team *******************************************/
 .parallax {
    /* The image used */
    background-image: url("/images/general/pexels-life-of-pix-8892.jpg");
@@ -383,6 +384,8 @@ hr {
    padding-bottom: 12%;
 }
 
+/**************************************** Here Ends the styling of Team *******************************************/
+
 /**************************************** Here Starts the styling of Beoordelingen *******************************************/
 .col {
    margin: 2rem;
@@ -424,15 +427,52 @@ cite {
 
 /**************************************** Here Ends the styling of Beoordelingen *******************************************/
 
-
 /**************************************** Here Starts the styling of Team *******************************************/
 
-.team-row {
+.card-style {
+   margin: 5rem;
+   text-align: center;
    padding-bottom: 10%;
 }
 
-.icons-team{
-      word-spacing: 2rem;
+/*
+.card-style:hover {
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+*/
+
+.card-title {
+   padding: 1rem;
+   font-size: 2.8rem;
+   font-weight: 700;
+}
+
+.card-slogan {
+   color: #5271FF;
+   font-size: 2.4rem ;
+   font-weight: 600;
+}
+
+.card-slogan:hover {
+   color: blue;
+}
+
+.card-text {
+   padding: 2rem;
+   font-size: 1.8rem;
+   font-weight: 500;
+}
+
+.card-line {
+   border: 1px solid black;
+}
+
+
+
+.social {
+   word-spacing: 2rem;
+   font-size: 2.5rem;
+
 }
 
 /**************************************** Here Ends the styling of Team *******************************************/
