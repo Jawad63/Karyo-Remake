@@ -191,8 +191,9 @@ h4 {
 }
 
 
-.col-spacing {
+.col-spacing-offerte {
     padding-top: 12.7rem;
+    padding-left: 6rem;
 }
 
 
@@ -227,12 +228,6 @@ h4 {
     padding-bottom: 2rem;
 }
 
-
-.social {
-    margin-left: -2.5rem;
-}
-
-
 .span-div {
     text-align: center;
     padding-bottom: 2rem;
@@ -250,19 +245,15 @@ h4 {
 }
 
 
-
 .heading-line {
     color: #5271FF;
 }
-
 
 
 .textarea-styling {
     margin-top: 1.5rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
-
 
 .box-shadow {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
