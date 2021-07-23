@@ -28,10 +28,12 @@ html , body {
    color: #505962;
 }
 
+
+
 a {
     text-decoration: none;
  
- }
+}
 
 
 .my-style-img {
@@ -178,25 +180,23 @@ h4 {
 
 
 
-
+.container-offerte {
+    padding-top: 20rem;
+}
 
 
 .offerte-text {
-    padding: 7px;
+    padding: 10px;
 }
 
 
 .col-spacing {
-    padding-top: 4.5rem;
+    padding-top: 10rem;
 }
 
-
-
-.title-col-one  {
-    padding-bottom: 0;
+.icon-fix {
+    
 }
-
-
 
 .title-col-one h3 {
     padding-top: 4%;
@@ -286,7 +286,6 @@ h4 {
 
 
 
-/*
 /*           OVERLAY             
 
 .overlay-picture {
