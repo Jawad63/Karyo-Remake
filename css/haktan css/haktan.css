@@ -181,7 +181,8 @@ h4 {
 
 
 .container-offerte {
-    padding-top: 20rem;
+    padding-top: 12rem;
+    padding-bottom: 5rem;
 }
 
 
@@ -191,11 +192,12 @@ h4 {
 
 
 .col-spacing {
-    padding-top: 10rem;
+    padding-top:12rem;
 }
 
+
 .icon-fix {
-    
+    margin-left: -0.7rem;
 }
 
 .title-col-one h3 {
@@ -204,12 +206,10 @@ h4 {
 }
 
 
-
 .title-col-one p {
     padding-right: 12%;
     padding-bottom: 2rem;
 }
-
 
 
 .offerte-title {
@@ -218,7 +218,9 @@ h4 {
     letter-spacing: 3px;
 }
 
-
+.small-text-styling {
+    font-size: 14px;
+}
 
 .offerte-small-titles {
     font-size: 20px;
@@ -227,9 +229,7 @@ h4 {
 
 
 
-.small-text-styling {
-    font-size: 14px;
-}
+
 
 
 
