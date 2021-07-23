@@ -37,7 +37,7 @@ a {
 
 }
 
-/*Here goes the syling for containers & rows: */
+/*Here goes the syling for social icons: */
 
 
 
@@ -565,7 +565,6 @@ cite {
       /**************************************** Here Starts the styling of Contact *******************************************/
 
 
-
 .container-contact {
    padding-top: 7rem;
 }
@@ -575,6 +574,17 @@ cite {
    background-repeat: no-repeat;
    background-size: cover;
    padding: 5%;
+   min-height: 70rem; 
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+}
+
+.heading-footer {
+   font-size: 5rem;
+   font-weight: 700;
+   color: #5271FF;
+   border-bottom: 2px solid blue;
 }
 
 .image-footer {
@@ -582,21 +592,27 @@ cite {
    height: auto;
 }
 
+
+
 .contact-left-section {
-   padding: 2.3rem  2rem 6rem;
+   margin-top: 5%;
+   padding-top: 5%;
+   padding: 3rem;
    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
+
 .contact-right-section {
-   padding-top: 5rem;
-   margin-right: 2rem;
+   padding-top: 8% ;
 }
+
 
 .contact-title {
    padding-bottom: 2rem;
 }
 
 .icon-fix-two {
+   letter-spacing: 1rem;
    padding-top: 1rem;
    margin-left: -0.7rem;
 }
@@ -617,8 +633,13 @@ cite {
 }
 
 .text-area-placement {
-   margin-top: 1.5rem;
+   padding: 1rem;
    margin-bottom: 1rem;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+::-webkit-input-placeholder {
+   font-size: 1.8rem;
 }
 
 .offerte-title {
@@ -636,6 +657,10 @@ cite {
 .small-text-styling {
    font-size: 1.8rem;
    font-weight: 600;
+}
+
+.social-contact {
+   font-size: 2.5rem;
 }
 
 
