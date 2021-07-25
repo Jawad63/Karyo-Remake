@@ -371,7 +371,7 @@ hr {
 
 .parallax-paragraph {
    color: white;
-   font-size: 2rem;
+   font-size: 1.7rem;
    font-weight: 600;
 }
 
@@ -430,9 +430,9 @@ cite {
 /**************************************** Here Starts the styling of Team *******************************************/
 
 .card-style {
-   margin: 5rem;
+   margin: 6rem;
    text-align: center;
-   padding-bottom: 10%;
+   padding-bottom: 5%;
 }
 
 /*
