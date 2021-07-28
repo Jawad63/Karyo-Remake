@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
 
 * {
     margin: auto;
@@ -24,13 +23,15 @@ html {
 
 html , body {
    overflow-x: hidden;
-   font-family: 'Lato' , sans-serif;
+   font-family: 'STIX Two Math', serif;
    color: #505962;
 }
 
 li {
    list-style: none;
 }
+
+
 
 a {
    text-decoration: none;
@@ -162,6 +163,7 @@ a {
    text-align: center;
    padding-bottom: 1.9rem;
    border-bottom: 4px solid #5271ff;
+   letter-spacing: 3px;
 }
 
 div .heading {
@@ -314,7 +316,7 @@ hr {
 
 /**************************************** Here Ends the styling of Diensten *******************************************/
 
-/**************************************** Here Starts the styling of Team *******************************************/
+/**************************************** Here Starts the styling of service section *******************************************/
 .parallax {
    /* The image used */
    background-image: url("/images/general/pexels-life-of-pix-8892.jpg");
@@ -340,6 +342,7 @@ hr {
 
  .span-service {
    border-bottom: 5px solid goldenrod;
+   letter-spacing: 4px;
  }
 
  .span-service:hover {
@@ -351,7 +354,7 @@ hr {
  } 
 
  .each-card {
-   margin: 1rem;
+   margin: 3rem;
    padding: 3rem;
    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
  }
@@ -371,8 +374,9 @@ hr {
 
 .parallax-paragraph {
    color: white;
-   font-size: 1.7rem;
+   font-size: 1.8rem;
    font-weight: 600;
+   letter-spacing: 2px;
 }
 
 .top-service-bar {
@@ -384,7 +388,7 @@ hr {
    padding-bottom: 12%;
 }
 
-/**************************************** Here Ends the styling of Team *******************************************/
+/**************************************** Here Ends the styling of service section*******************************************/
 
 /**************************************** Here Starts the styling of Beoordelingen *******************************************/
 .col {

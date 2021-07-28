@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
 
 * {
     margin: auto;
@@ -24,7 +22,7 @@ html {
 
 html , body {
    overflow-x: hidden;
-   font-family: 'Lato' , sans-serif;
+   font-family: 'STIX Two Math', serif;
    color: #505962;
 }
 
@@ -36,34 +34,6 @@ a {
 }
 
 
-.my-style-img {
-    padding: 1rem;
-    text-align: right;
-}
-
-
-.service-text {
-    padding: 1rem;
-    text-align: left;
-}
- 
-
-.img-fluid {
-    height: 310px;
-    width: 600px;
-}
-
-h2 {
-    text-align: left;
-    position: absolute;
-}
-
-h4 {
-    line-height: 25px;
-    text-align: left;
-    padding-right: 20px;
-    padding-top: 25px;
-}
 
 
 /* Here starts the styling of navbar */ 
@@ -269,31 +239,45 @@ h4 {
 /*          End styling for offerte content         */
 
 
+/*          Here starts styling for service page         */
+
+.service-container {
+    padding-top: 15%;
+}
+
+.my-style-img {
+    padding: 1rem;
+    text-align: right;
+}
 
 
+.service-text {
+    border: 2px solid red;
+    padding: 1rem;
+    text-align: left;
+}
+ 
+.service-image {
+    border: 2px solid blue;
+    height: 40rem;
+    width: 70rem;
+}
 
-/*          Start styling for Contact content         */
+h2 {
+    text-align: left;
+    position: absolute;
+}
+
+h4 {
+    line-height: 25px;
+    text-align: left;
+    padding-right: 20px;
+    padding-top: 25px;
+}
 
 
-
-
-
-/*          End styling for Contact content         */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*           OVERLAY             
+/*          End styling for service page         */
+/*         OVERLAY             
 
 .overlay-picture {
     
@@ -325,7 +309,7 @@ h4 {
 
 
 
-/*          start styling for portfolio content         */
+
 
 
 
