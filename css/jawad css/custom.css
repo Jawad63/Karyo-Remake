@@ -391,6 +391,24 @@ hr {
 /**************************************** Here Ends the styling of service section*******************************************/
 
 /**************************************** Here Starts the styling of Beoordelingen *******************************************/
+
+
+.heading-beoordeel span{
+   color: #5271ff;
+   font-weight: 700;
+   text-transform: uppercase;
+   font-size: 4rem;
+   text-align: center;
+   
+   border-bottom: 4px solid #5271ff;
+   letter-spacing: 3px;
+}
+
+.heading-beoordeel {
+   padding-bottom: 2%;
+   padding-top: 5%;
+}
+
 .col {
    margin: 2rem;
 }

@@ -42,7 +42,7 @@
 
 
 
-<body data-spy="scroll" data-target="#navbarResponsive">
+<body data-bs-spy="scroll" data-bs-target="#navbarResponsive">
 
    <!---------------------------------------------- Here Starts Header ------------------------------------>
 
@@ -53,7 +53,8 @@
    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
       <div class="container">
             <div class="karyo-logo">
-            <img src="./images/logo's/Karyo_Small_Blue-removebg-preview.png" alt="">
+               <a href="index.html">
+            <img src="./images/logo's/Karyo_Small_Blue-removebg-preview.png" alt=""></a>
             </div>
 
 
@@ -89,16 +90,16 @@
                   <a class="nav-links" href="service.html">Services</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-links" href="#">Het Team</a>
+                  <a class="nav-links" href="#team">Het Team</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-links" href="#">Over ons</a>
+                  <a class="nav-links" href="#overons">Over ons</a>
                </li>
                <li class="nav-item btn">
                   <span><a class="offerte" href="offerte.html">Gratis Offerte</a></span>
                </li>
                <li class="nav-item">
-                  <a class="nav-links" href="#">Contact</a>
+                  <a class="nav-links" href="#contact">Contact</a>
                </li>
 
             </ul>
@@ -304,11 +305,16 @@
    <!----------------------------------------- Here Starts Beoordeelingen Section ------------------->
 
 
+   
+      <div class="heading-beoordeel text-center">
+         <span>Beoordelingen</span>
+      </div>
+   
+
+
    <div class="container-fluid">
 
-      <div class="conatiner">
-         <div class="heading text-center"><span>Beoordeelingen</span></div>
-      </div>
+
 
       <div class="container">
          <div class="row">
@@ -357,85 +363,85 @@
 
       <!----------------------------------------- Here Starts Team Section --------------------------->
 
+   <div id="team">
+      <div class="container-fluid">
+         <div class="parallax">
 
-   <div class="container-fluid">
-      <div class="parallax">
-
-         <div class="conatiner">
-            <div class="heading text-center"><span>Het team</span></div>
-         </div> 
+            <div class="conatiner">
+               <div class="heading text-center"><span>Het team</span></div>
+            </div> 
 
 
-         <div class="container">
-            
-            <div class="row card-deck">
+            <div class="container">
+               
+               <div class="row card-deck">
 
-               <div class="col col-lg-3 card-style">
-                  <div class="card">
-                     <img class="card-img-top" src="./images/Cards/anonymous.png" alt="Card image cap">
-                     <div class="card-body">
-                        <h5 class="card-title">Yusuf Yorulmaz</h5>
-                        <h3 class="card-slogan">Zaakvoerder</h3>
-                        <hr class="card-line">
-                        <p class="card-text">Reeds sinds 1992 staat Yusuf zelf op de werkvloer, gestart bij een baas en sinds 2003 staat hij zelf aan het roer.</p>
-                        <div class="card-footer social">
-                           <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                           <a href="mailto:info@karyo.be"><i class="fas fa-envelope"></i></a>
-                           <a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram"></i></a>
-                           <a href="https://www.linkedin.com/login"><i class="fab fa-linkedin"></i></a>
+                  <div class="col col-lg-3 card-style">
+                     <div class="card">
+                        <img class="card-img-top" src="./images/Cards/anonymous.png" alt="Card image cap">
+                        <div class="card-body">
+                           <h5 class="card-title">Yusuf Yorulmaz</h5>
+                           <h3 class="card-slogan">Zaakvoerder</h3>
+                           <hr class="card-line">
+                           <p class="card-text">Reeds sinds 1992 staat Yusuf zelf op de werkvloer, gestart bij een baas en sinds 2003 staat hij zelf aan het roer.</p>
+                           <div class="card-footer social">
+                              <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                              <a href="mailto:info@karyo.be"><i class="fas fa-envelope"></i></a>
+                              <a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram"></i></a>
+                              <a href="https://www.linkedin.com/login"><i class="fab fa-linkedin"></i></a>
+                           </div>
                         </div>
                      </div>
                   </div>
-               </div>
 
 
-               <div class="col col-lg-3 card-style">
-                  <div class="card">
-                     <img class="card-img-top" src="./images/Cards/anonymous.png" alt="Card image cap">
-                     <div class="card-body">
-                        <h5 class="card-title">Verkoopsdienst</h5>
-                        <a href="/offerte.html"><h3 class="card-slogan">Gratis offerte</h3></a>
-                        <hr class="card-line">
-                        <p class="card-text">Voor een offerte op maat, graag het online formulier invullen zodat ons team u kan contacteren.</p>
-                        <div class="card-footer social">
-                           <a href="tel:+32478449965"><i class="fas fa-phone-alt"></i></a>
-                           <a href="mailto:info@karyo.be"><i class="fas fa-envelope"></i></a>
-                           <a href="offerte.html"><i class="fas fa-sticky-note"></i></a>
+                  <div class="col col-lg-3 card-style">
+                     <div class="card">
+                        <img class="card-img-top" src="./images/Cards/anonymous.png" alt="Card image cap">
+                        <div class="card-body">
+                           <h5 class="card-title">Verkoopsdienst</h5>
+                           <a href="/offerte.html"><h3 class="card-slogan">Gratis offerte</h3></a>
+                           <hr class="card-line">
+                           <p class="card-text">Voor een offerte op maat, graag het online formulier invullen zodat ons team u kan contacteren.</p>
+                           <div class="card-footer social">
+                              <a href="tel:+32478449965"><i class="fas fa-phone-alt"></i></a>
+                              <a href="mailto:info@karyo.be"><i class="fas fa-envelope"></i></a>
+                              <a href="offerte.html"><i class="fas fa-sticky-note"></i></a>
+                           </div>
                         </div>
                      </div>
                   </div>
+                  
+                  <div class="col col-lg-3 card-style">
+                     <div class="card">
+                        <img class="card-img-top" src="./images/Cards/anonymous.png" alt="Card image cap">
+                        <div class="card-body">
+                           <h5 class="card-title">Na Service</h5>
+                           <a href="/offerte.html"><h3 class="card-slogan">Gratis offerte</h3></a>
+                           <hr class="card-line">
+                           <p class="card-text">Voor een offerte op maat, graag het online formulier invullen zodat ons team u kan contacteren.</p>
+                           <div class="card-footer social">
+                              <a href="tel:+32478449965"><i class="fas fa-phone-alt"></i></a>
+                              <a href="mailto:info@karyo.be"><i class="fas fa-envelope"></i></a>
+                              <a href="offerte.html"><i class="fas fa-sticky-note"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
                </div>
                
-               <div class="col col-lg-3 card-style">
-                  <div class="card">
-                     <img class="card-img-top" src="./images/Cards/anonymous.png" alt="Card image cap">
-                     <div class="card-body">
-                        <h5 class="card-title">Na Service</h5>
-                        <a href="/offerte.html"><h3 class="card-slogan">Gratis offerte</h3></a>
-                        <hr class="card-line">
-                        <p class="card-text">Voor een offerte op maat, graag het online formulier invullen zodat ons team u kan contacteren.</p>
-                        <div class="card-footer social">
-                           <a href="tel:+32478449965"><i class="fas fa-phone-alt"></i></a>
-                           <a href="mailto:info@karyo.be"><i class="fas fa-envelope"></i></a>
-                           <a href="offerte.html"><i class="fas fa-sticky-note"></i></a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-
-            </div>
-            
-         </div>   
+            </div>   
+         </div>
       </div>
    </div>
-
 
 
       <!----------------------------------------- Here Ends Team Section ---------------------------------->
 
       <!----------------------------------------- Here Starts Over Ons Section ---------------------------------->
 
-
+   <div id="overons">
       <div class="container-fluid">
 
          <div class="container">
@@ -487,7 +493,7 @@
                  </div>
              </div>
          </div>
-         
+      </div>
      
      
      
@@ -564,66 +570,67 @@
 
      <!----------------------------------------- Here Starts Contact Section ---------------------------------->
 
+   <div id="contact">
+      <div class="container-fluid container-contact">
+         <div class="parallax">
+            <div class="row row-contact"> 
 
-   <div class="container-fluid container-contact">
-      <div class="parallax">
-         <div class="row row-contact"> 
-
-            <div class="container something">
-               <div class="heading-footer text-center pt-0">
-                  <span>Contact</span>
-               </div>
-            </div>
-
-            <div class="col contact-left-section">
-
-               <h3 class="big-text-styling" >KARYO BV</h3><br>
-               
-               <p class="small-text-styling">KARYO is al 18 jaar specialist in het vloeren & tegelen. 
-                  U kunt bij ons terecht voor zowel nieuwbouw- als renovatieprojecten. Aarzel niet en vraag uw vrijblijvende offerte aan.
-               </p><br>  
-               
-               <strong class="offerte-title">Onze locatie</strong>
-               <p class="small-text-styling">Allemanshofstraat 29,<br>Bornem, Belgium</p><br>
-               
-               <strong class="offerte-title">Contact Info</strong>
-               <p class="small-text-styling">+32 478 44 99 65<br>+32 478 44 99 65<br>info@karyo.be</p>    
-                  
-               <div class="col icon-fix-two social-contact">
-                  <a href="tel:+32478449965"><i class="fas fa-map-marker-alt"></i></a>
-                  <a href="https://www.google.com/maps/place/Allemanshofstraat+29,+2880+Bornem/@51.0963542,4.2324589,17z/data=!3m1!4b1!4m5!3m4!1s0x47c392af682de1f3:0x636816523607d294!8m2!3d51.0963542!4d4.2346476"><i class="fas fa-phone"></i></a>
-                  <a href="mailto:info@karyo.be"><i class="fas fa-envelope"></i></a>
-                  <a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram"></i></a>
-                  <a href="https://www.linkedin.com/login"><i class="fab fa-linkedin"></i></a>
-               </div>
-            
-            </div>
-
-            <div class="col contact-right-section">
-               <form action="contact/gmail-contact.php" method="POST" id="contact-form">
-
-                  <div class="messages"></div>
-                  <div class="controls">
-
-                     <div class="form-group">
-                        <input type="text" id="form_name" class="form-control form-control-lg box-shadow text-area-placement" name="name" placeholder="Naam*" required="required">
-                     </div>
-         
-                     <div class="form-group">  
-                        <input type="text" id="form_name" class="form-control form-control-lg box-shadow text-area-placement" name="email" placeholder="Email*" required="required">
-                     </div>
-         
-                     <div class="form-group">
-                        <textarea name="message" id="form_message" rows="11" class="form-control form-control-lg textarea-styling text-area-placement" placeholder="Geef een korte uitleg over uw project*" required="required"></textarea>
-                     </div>
-
+               <div class="container something">
+                  <div class="heading-footer text-center pt-0">
+                     <span>Contact</span>
                   </div>
+               </div>
 
-                  <div class="g-recaptcha" data-sitekey="6LfIjEsaAAAAAJ1c8SmgzEDU-esTH1zrCW-hFtiB"></div><br>
+               <div class="col contact-left-section">
 
-                  <input type="submit" class="btn btn-primary btn-lg text-area-placement" value="Verzenden">
+                  <h3 class="big-text-styling" >KARYO BV</h3><br>
                   
-               </form>
+                  <p class="small-text-styling">KARYO is al 18 jaar specialist in het vloeren & tegelen. 
+                     U kunt bij ons terecht voor zowel nieuwbouw- als renovatieprojecten. Aarzel niet en vraag uw vrijblijvende offerte aan.
+                  </p><br>  
+                  
+                  <strong class="offerte-title">Onze locatie</strong>
+                  <p class="small-text-styling">Allemanshofstraat 29,<br>Bornem, Belgium</p><br>
+                  
+                  <strong class="offerte-title">Contact Info</strong>
+                  <p class="small-text-styling">+32 478 44 99 65<br>+32 478 44 99 65<br>info@karyo.be</p>    
+                     
+                  <div class="col icon-fix-two social-contact">
+                     <a href="tel:+32478449965"><i class="fas fa-map-marker-alt"></i></a>
+                     <a href="https://www.google.com/maps/place/Allemanshofstraat+29,+2880+Bornem/@51.0963542,4.2324589,17z/data=!3m1!4b1!4m5!3m4!1s0x47c392af682de1f3:0x636816523607d294!8m2!3d51.0963542!4d4.2346476"><i class="fas fa-phone"></i></a>
+                     <a href="mailto:info@karyo.be"><i class="fas fa-envelope"></i></a>
+                     <a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram"></i></a>
+                     <a href="https://www.linkedin.com/login"><i class="fab fa-linkedin"></i></a>
+                  </div>
+               
+               </div>
+
+               <div class="col contact-right-section">
+                  <form action="contact/gmail-contact.php" method="POST" id="contact-form">
+
+                     <div class="messages"></div>
+                     <div class="controls">
+
+                        <div class="form-group">
+                           <input type="text" id="form_name" class="form-control form-control-lg box-shadow text-area-placement" name="name" placeholder="Naam*" required="required">
+                        </div>
+            
+                        <div class="form-group">  
+                           <input type="text" id="form_name" class="form-control form-control-lg box-shadow text-area-placement" name="email" placeholder="Email*" required="required">
+                        </div>
+            
+                        <div class="form-group">
+                           <textarea name="message" id="form_message" rows="11" class="form-control form-control-lg textarea-styling text-area-placement" placeholder="Geef een korte uitleg over uw project*" required="required"></textarea>
+                        </div>
+
+                     </div>
+
+                     <div class="g-recaptcha" data-sitekey="6LfIjEsaAAAAAJ1c8SmgzEDU-esTH1zrCW-hFtiB"></div><br>
+
+                     <input type="submit" class="btn btn-primary btn-lg text-area-placement" value="Verzenden">
+                     
+                  </form>
+               </div>
             </div>
          </div>
       </div>
