@@ -15,7 +15,7 @@ html {
 }
 
 @media only screen 
-    and (device-width: 420px) 
+    and (device-width: 414px) 
     and (device-height: 896px) 
     and (-webkit-device-pixel-ratio: 2) { }
 
@@ -43,7 +43,7 @@ a {
     width: 150px;
     height: 60px;
  }
- 
+
  .banner-image {
     width: 100%;
     height: 80vh;
@@ -148,24 +148,19 @@ a {
 /*          start styling for offerte content         */
 
 
-
-
 .container-offerte {
     padding-top: 12rem;
     padding-bottom: 5rem;
 }
 
-
 .offerte-text {
     padding: 10px;
 }
-
 
 .col-spacing-offerte {
     padding-top: 12.7rem;
     padding-left: 6rem;
 }
-
 
 .icon-fix {
     margin-left: -0.7rem;
@@ -176,12 +171,10 @@ a {
     padding-bottom: 3%;
 }
 
-
 .title-col-one p {
     padding-right: 12%;
     padding-bottom: 2rem;
 }
-
 
 .offerte-title {
     font-size: 16px;
@@ -204,7 +197,6 @@ a {
     padding-top: 2rem;
 }
 
-
 .span-service-one {
     color: #5271FF;
     border-bottom: 2.3px solid #5271FF;
@@ -214,11 +206,9 @@ a {
     word-spacing: 4px;
 }
 
-
 .heading-line {
     color: #5271FF;
 }
-
 
 .textarea-styling {
     margin-top: 1.5rem;
@@ -229,54 +219,64 @@ a {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-
-
 .textarea-spacing {
     margin-top: 0.7rem;
 }
 
 
-/*          End styling for offerte content         */
+/*          End styling for offerte content              */
 
 
 /*          Here starts styling for service page         */
 
+
+
 .service-container {
-    padding-top: 15%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    margin-top: 4.2rem;
 }
-
-.my-style-img {
-    padding: 1rem;
-    text-align: right;
-}
-
 
 .service-text {
-    border: 2px solid red;
-    padding: 1rem;
-    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    padding: 2%;
 }
  
+.my-style-img {
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
 .service-image {
-    border: 2px solid blue;
-    height: 40rem;
     width: 70rem;
+    height: 30rem;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.service-colums {
+    padding-bottom: 4%;
 }
 
 h2 {
     text-align: left;
-    position: absolute;
+    color: #5271FF;
+    font-weight: 700;
+    font-size: 24px;
 }
 
 h4 {
     line-height: 25px;
     text-align: left;
-    padding-right: 20px;
-    padding-top: 25px;
+    padding-right: 15px;
+    padding-top: 20px;
 }
 
 
+
 /*          End styling for service page         */
+
+
+
+
 /*         OVERLAY             
 
 .overlay-picture {

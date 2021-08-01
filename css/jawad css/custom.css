@@ -108,7 +108,7 @@ a {
    background-color: #5271FF;
 }
 
-.navbar-toggler .line{
+.navbar-toggler .line {
    width: 100%;
    float: left;
    height: 2px;
@@ -146,7 +146,6 @@ a {
    background-color: blue;
    color: white;
 }
-
 /**************************************** Here Ends the styling of Header *******************************************/
 
 /**************************************** Here Starts the styling of Diensten section *******************************************/
@@ -210,7 +209,7 @@ hr {
 .content-main .content-overlay {
   background: rgba(0,0,0,0.7);
   position: absolute;
-  height: 99%;
+  height: 100%;
   width: 100%;
   left: 0;
   top: 0;
