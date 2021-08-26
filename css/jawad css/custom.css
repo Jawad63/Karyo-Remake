@@ -315,10 +315,7 @@ hr {
 /**************************************** Here Ends the styling of Diensten *******************************************/
 
 /**************************************** Here Starts the styling of service section *******************************************/
-.parallax {
-   /* The image used */
-   background-image: url("/images/general/pexels-life-of-pix-8892.jpg");
- 
+.parallax { 
    /* Set a specific height */
    min-height: 70rem; 
  
@@ -590,7 +587,6 @@ cite {
 }
 
 .row-contact {
-   background-image: url(/images/footer/pic\ five-copy.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    padding: 5%;
