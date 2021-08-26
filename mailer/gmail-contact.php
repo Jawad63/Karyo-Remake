@@ -7,7 +7,7 @@ THIS FILE USES PHPMAILER INSTEAD OF THE PHP MAIL() FUNCTION
 use PHPMailer\PHPMailer\PHPMailer;
 
 require './PHPMailer-master/vendor/autoload.php';
-$config = require __DIR__ . '/../config.php';
+$config = require __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'config.php';
 
 if (empty($_POST['g-recaptcha-response'])) {
     die(json_encode(['type' => 'danger', 'message' => 'Invalid form submission']));
