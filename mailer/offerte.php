@@ -18,11 +18,7 @@ if (empty($_POST['g-recaptcha-response'])) {
 *  CONFIGURE EVERYTHING HERE
 */
 
-
-
 //////////////////////////////////////////////////////////////////////////////
-
-
 
 $targetFile = '/tmp/' . $_FILES['attachment']['name'];
 move_uploaded_file($_FILES['attachment']['tmp_name'], $targetFile);

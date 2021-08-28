@@ -106,7 +106,6 @@ $(function () {
 
 // OFFERTE FORM INPUT VALIDATION FOR OFFERTE 
 
-
 $(function () {
 
     // init the validator
@@ -149,14 +148,13 @@ $(function () {
                         $('#offerte-form').find('.messages').html(alertBox);
                         // empty the form
                         $('#offerte-form')[0].reset();
-                        
                     }
                 }
             });
             return false;
         }
     })
-  });
+});
 
 
 
