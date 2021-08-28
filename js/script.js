@@ -97,13 +97,6 @@ $(function () {
 
 
 
-
-
-
-
-
-
-
 // OFFERTE FORM INPUT VALIDATION FOR OFFERTE 
 
 $(function () {
