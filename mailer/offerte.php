@@ -38,7 +38,7 @@ $sendToEmail = 'info@karyo.be';
 // array variable name => Text to appear in the email
 
 $fields = array('voornaam' => 'Naam:', 'achternaam' => 'Achternaam:' , 'straat' => 'Straat:' , 'stad' => 'Stad:' ,
-                'telefoon' => 'Telefoon:' , 'email' => 'Email:' , 'postcode' => 'Postcode' , 'werfadres' => 'Werfadres:' , 'werfstad' => 'Werfstad:' , 'werfpostcode' => 'Werfpostcode:' , 'beschrijving' => 'Beschrijving:', 'file' => 'Bijlage' , 'message' => 'Message:');
+                'telefoon' => 'Telefoon:' , 'email' => 'Email:' , 'postcode' => 'Postcode' , 'werfadres' => 'Werfadres:' , 'werfstad' => 'Werfstad:' , 'werfpostcode' => 'Werfpostcode:' , 'beschrijving' => 'Beschrijving:', 'attachment' => 'Bijlage' , 'message' => 'Message:');
 
 
 // message that will be displayed when everything is OK :)
