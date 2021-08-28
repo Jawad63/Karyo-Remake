@@ -99,16 +99,18 @@
 <!---------------------------- Here Ends header ------------------------------->
 
 
-<div class="container container-offerte">
+    <div class="container container-offerte">
 
-    <div class="row">
+        <div class="row">
+
             <div class="col pl-100 col-spacing-offerte">
         
                 <div class="col title-col-one">
                         <h3 class="" style="font-weight: bold;">Vraag uw gratis offerte aan!</h3> 
                     
                     <p class="small-text-styling" style="color: black;">Bouw- of verbouwplannen? Bent u opzoek naar een vloerder op maat die hoogstaande kwaliteit levert? Dan kan u steeds bij ons terecht voor een vrijblijvende en gratis offerte!</p>
-                        <p class=" small-text-styling" style="color: black;">Vul bijgevoegd formulier zo volledig mogelijk in en wij bezorgen u gratis en vrijblijvend een prijsopgave. Voor renovatie en nieuwbouw zal één van onze verkopers contact met u opnemen voor een bezoek. Indien u reeds plannen heeft, mag u deze uiteraard doormailen.</p>
+                        <p class=" small-text-styling" style="color: black;">Vul bijgevoegd formulier zo volledig mogelijk in en wij bezorgen u gratis en vrijblijvend een prijsopgave. Voor renovatie en nieuwbouw zal één van onze verkopers contact met u opnemen voor een bezoek. Indien u reeds plannen heeft, mag u deze uiteraard doormailen.
+                        </p>
                 </div>
 
                 <div class="col">
@@ -154,171 +156,169 @@
             </div>
 
 
-        <div class="col-md-7">
-            <form action="mailer/offerte.php" method="POST" id="offerte-form" enctype="multipart/form-data">
+            <div class="col-md-7">
+                <form action="mailer/offerte.php" method="POST" id="offerte-form" enctype="multipart/form-data">
 
-                <div class="col-md-11 px-0 pl-md-3 ">
-                    <div class="col-12 os-animation" data-animation="animate__animated animate__fadeInUp">
-                        <div class="span-div">
-                            <span class="span-service-one">Persoonlijke info</span>
-                        </div>
-                </div>
-
-                <div class="messages"></div>
-                    <div class="controls">
-
-                    
-                    <p class="offerte-small-titles" style="font-weight: bold;">Naam*</p>
-                <div class="row">
-                    <div class="col offerte-text">
-                        <div class="form-group">
-                            <p style="color: black;" class="small-text-styling">Voornaam</p>
-                             
-                        <input type="text" id="form_name" class="form-control form-control-lg box-shadow" name="voornaam" required="required">
-                        </div>
+                    <div class="col-md-11 px-0 pl-md-3 ">
+                        <div class="col-12 os-animation" data-animation="animate__animated animate__fadeInUp">
+                            <div class="span-div">
+                                <span class="span-service-one">Persoonlijke info</span>
+                            </div>
                     </div>
 
+                    <div class="messages"></div>
+                        <div class="controls">
 
-                    <div class="col offerte-text">
-                        <div class="form-group">
-                            <p style="color: black;" class="small-text-styling">Achternaam</p>
-                            
-                        <input type="text" id="form_name" class="form-control form-control-lg box-shadow" name="achternaam">
+                        
+                        <p class="offerte-small-titles" style="font-weight: bold;">Naam*</p>
+                    <div class="row">
+                        <div class="col offerte-text">
+                            <div class="form-group">
+                                <p style="color: black;" class="small-text-styling">Voornaam</p>
+                                
+                            <input type="text" id="form_name" class="form-control form-control-lg box-shadow" name="voornaam" required="required">
+                            </div>
+                        </div>
+
+
+                        <div class="col offerte-text">
+                            <div class="form-group">
+                                <p style="color: black;" class="small-text-styling">Achternaam</p>
+                                
+                            <input type="text" id="form_name" class="form-control form-control-lg box-shadow" name="achternaam">
+                            </div>
                         </div>
                     </div>
-                </div>
-                    
-
-                <div class="col offerte-text px-0 pl-md-3">
-                    <p class=" offerte-small-titles" style="font-weight: bold;">WerfAdres</p>	
-                    <div class="form-group">
-                        <p style="color: black;" class="small-text-styling">Straat + huisnummer</p>
-                        <input type="text" id="form_name" class="form-control form-control-lg box-shadow" name="werfadres">
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col offerte-text">
-                        <div class="form-group">
-                            <p style="color: black;" class="small-text-styling">Stad</p> 
-                            <input type="text" id="form_name" class="form-control form-control-lg box-shadow" name="stad" required="required">
-                        </div>
-                    </div>
-
-                    <div class="col offerte-text">
-                        <div class="form-group">
-                            <p style="color: black;" class="small-text-styling">postcode</p> 
-                        <input type="text" id="form_name" class="form-control form-control-lg box-shadow" name="postcode" required="required">
-                        </div>
-                    </div>
-                </div>								
-                
-
-
-
-                <div class="row">	
-                    <div class="col offerte-text">
-                        <div class="form-group">
-                            <p style="color: black;" class="small-text-styling">Email</p> 
-                        <input type="email" id="form_name" class="form-control form-control-lg box-shadow" name="from_email" required="required">
-                        </div>
-                    </div>
-                
-
-                    <div class="col offerte-text">
-                        <div class="form-group">
-                            <p style="color: black;" class="small-text-styling">Telefoon</p> 
-                        <input type="text" id="form_name" class="form-control form-control-lg box-shadow" name="telefoon" required="required">
-                        </div>
-                    </div>
-                </div>
                         
 
-
-
-                <div class="col offerte-text px-0 pl-md-3">
-                    <div class="col-12 os-animation" data-animation="animate__animated animate__fadeInUp">
-                        <div class="span-div">
-                            <span class="span-service-one">Project gegevens</span>
+                    <div class="col offerte-text px-0 pl-md-3">
+                        <p class=" offerte-small-titles" style="font-weight: bold;">WerfAdres</p>	
+                        <div class="form-group">
+                            <p style="color: black;" class="small-text-styling">Straat + huisnummer</p>
+                            <input type="text" id="form_name" class="form-control form-control-lg box-shadow" name="werfadres">
                         </div>
                     </div>
+
+                    <div class="row">
+                        <div class="col offerte-text">
+                            <div class="form-group">
+                                <p style="color: black;" class="small-text-styling">Stad</p> 
+                                <input type="text" id="form_name" class="form-control form-control-lg box-shadow" name="stad" required="required">
+                            </div>
+                        </div>
+
+                        <div class="col offerte-text">
+                            <div class="form-group">
+                                <p style="color: black;" class="small-text-styling">postcode</p> 
+                            <input type="text" id="form_name" class="form-control form-control-lg box-shadow" name="postcode" required="required">
+                            </div>
+                        </div>
+                    </div>								
+                    
+
+
+
+                    <div class="row">	
+                        <div class="col offerte-text">
+                            <div class="form-group">
+                                <p style="color: black;" class="small-text-styling">Email</p> 
+                            <input type="email" id="form_name" class="form-control form-control-lg box-shadow" name="from_email" required="required">
+                            </div>
+                        </div>
+                    
+
+                        <div class="col offerte-text">
+                            <div class="form-group">
+                                <p style="color: black;" class="small-text-styling">Telefoon</p> 
+                            <input type="text" id="form_name" class="form-control form-control-lg box-shadow" name="telefoon" required="required">
+                            </div>
+                        </div>
+                    </div>
+                            
+
+
+
+                    <div class="col offerte-text px-0 pl-md-3">
+                        <div class="col-12 os-animation" data-animation="animate__animated animate__fadeInUp">
+                            <div class="span-div">
+                                <span class="span-service-one">Project gegevens</span>
+                            </div>
+                        </div>
+                
             
-        
 
-                    <p class=" offerte-small-titles " style="font-weight: bold;">WerfAdres</p>	
-                    <div class="form-group">
-                            <p style="color: black;" class="small-text-styling">Straat + huisnummer</p> 
-                        <input type="text" id="form_name" class="form-control form-control-lg box-shadow" name="werfadres">
-                    </div>
-                </div>
-                
-
-
-                <div class="row">
-                    <div class="col offerte-text">
+                        <p class=" offerte-small-titles " style="font-weight: bold;">WerfAdres</p>	
                         <div class="form-group">
-                            <p style="color: black;" class="small-text-styling">Stad</p> 
-                            <input type="text" id="form_name" class="form-control form-control-lg box-shadow" name="werfstad">
+                                <p style="color: black;" class="small-text-styling">Straat + huisnummer</p> 
+                            <input type="text" id="form_name" class="form-control form-control-lg box-shadow" name="werfadres">
                         </div>
                     </div>
-                
-                    <div class="col offerte-text">
-                        <div class="form-group">
-                            <p style="color: black;" class="small-text-styling">Werf postcode</p>
-                        <input type="text" id="form_name" class="form-control form-control-lg box-shadow" name="werfpostcode" >
+                    
+
+
+                    <div class="row">
+                        <div class="col offerte-text">
+                            <div class="form-group">
+                                <p style="color: black;" class="small-text-styling">Stad</p> 
+                                <input type="text" id="form_name" class="form-control form-control-lg box-shadow" name="werfstad">
+                            </div>
+                        </div>
+                    
+                        <div class="col offerte-text">
+                            <div class="form-group">
+                                <p style="color: black;" class="small-text-styling">Werf postcode</p>
+                            <input type="text" id="form_name" class="form-control form-control-lg box-shadow" name="werfpostcode" >
+                            </div>
                         </div>
                     </div>
-                </div>
 
 
-                <div class="row">
-                    <div class="col offerte-text">
-                        <div class="form-group">
-                            <p style="color: black;" class="small-text-styling">Beschrijving</p>
-                            <input type="text" id="form_name" class="form-control form-control-lg box-shadow" name="beschrijving" >
+                    <div class="row">
+                        <div class="col offerte-text">
+                            <div class="form-group">
+                                <p style="color: black;" class="small-text-styling">Beschrijving</p>
+                                <input type="text" id="form_name" class="form-control form-control-lg box-shadow" name="beschrijving" >
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-md-12">
-                    <div class="form-group">
-                        <label for="form_name" class="small-text-styling">Bijlage:</label>
-                        <input type="file" class="form-control-file" id="form_name" name="attachment">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_name" class="small-text-styling">Bijlage:</label>
+                            <input type="file" class="form-control-file" id="form_name" name="attachment">
+                        </div>
                     </div>
-                </div>
 
 
-                <div class="col-md-12 textarea-spacing">
-                    <div class="form-group">
-                        <p class="small-text-styling"> Hier kunt u een plan, lastenboek of een foto meesturen. Opgelet: het doorsturen van grote bestanden kan zeer lang duren. </p>
-                        <br>
-                        <p class="small-text-styling"> Geef een korte uitleg over uw project* </p>
-                        <textarea name="message" id="form_message" rows="9" class="form-control form-control-lg textarea-styling" required="required"></textarea>
+                    <div class="col-md-12 textarea-spacing">
+                        <div class="form-group">
+                            <p class="small-text-styling"> Hier kunt u een plan, lastenboek of een foto meesturen. Opgelet: het doorsturen van grote bestanden kan zeer lang duren. </p>
+                            <br>
+                            <p class="small-text-styling"> Geef een korte uitleg over uw project* </p>
+                            <textarea name="message" id="form_message" rows="9" class="form-control form-control-lg textarea-styling" required="required"></textarea>
+                        </div>
                     </div>
-                </div>
 
+                    
+                    <div  class="g-recaptcha" 
+                    style="
+                    display: inline-block;
+                    padding-top: 1rem;
+                    "  
+                    data-sitekey="6LfIjEsaAAAAAJ1c8SmgzEDU-esTH1zrCW-hFtiB">
+                    </div>
                 
-                <div  class="g-recaptcha" 
-                style="
-                display: inline-block;
-                padding-top: 1rem;
-                "  
-                data-sitekey="6LfIjEsaAAAAAJ1c8SmgzEDU-esTH1zrCW-hFtiB">
-                </div>
-              
 
-                <br>
+                    <br>
 
-                <input type="submit" class="btn btn-primary btn-md" value="Verzenden">
+                    <input type="submit" class="btn btn-primary btn-md" value="Verzenden">
 
-                
-        
-            </form> <!-- End Form -->
+                    
+            
+                </form> <!-- End Form -->
+            </div>
         </div>
     </div>
-   
-
-</div>
 
 
 

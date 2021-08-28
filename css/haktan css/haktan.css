@@ -71,11 +71,11 @@ a {
     text-transform: uppercase;
     font-size: 14.4px;
     font-weight: 700;
-    color: #5271FF;
+    color: blue;
  }
  
  .nav-links:hover {
-    color: blue;
+    color: #5271FF;
  }
  
  .offerte {
