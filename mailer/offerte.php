@@ -101,7 +101,6 @@ $mail->AddAddress($sendToEmail);
 $mail->AddReplyTo($fromEmail, $fromName . ' ' . $_POST['achternaam']);
 
 
-
     // end email configuration
     $mail->addAttachment($targetFile);
 
