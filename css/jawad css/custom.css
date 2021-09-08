@@ -43,11 +43,13 @@ a {
 
 
 
+
 /**************************************** Here Starts the styling of navbar *******************************************/
 
 .karyo-logo img{
    width: 150px;
    height: 60px;
+
 }
 
 .banner-image {
@@ -325,7 +327,10 @@ hr {
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
+
  }
+
+
 
  .heading-service {
    color: white;
