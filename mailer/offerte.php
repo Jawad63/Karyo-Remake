@@ -20,7 +20,7 @@ if (empty($_POST['g-recaptcha-response'])) {
 
 //////////////////////////////////////////////////////////////////////////////
 
-$targetFile = '/tmp/' . $_FILES['attachment']['name'];
+$targetFile = sys_get_temp_dir() . DIRECTORY_SEPARATOR . $_FILES['attachment']['name'];
 move_uploaded_file($_FILES['attachment']['tmp_name'], $targetFile);
 
 //////////////////////////////////////////////////////////////////////////////
