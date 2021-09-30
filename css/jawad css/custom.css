@@ -694,3 +694,49 @@ h1 {
 .white-text {
    color: white;
 }
+
+/***** Diensten PAGE!!! ***/
+
+
+.new-nav {
+	padding-top: 20rem;
+}
+
+.filter-nav{
+	padding-bottom: 3rem;
+}
+
+
+.button-underline {
+	padding : 2rem;
+
+}
+
+.col-md-3 .item {
+	padding: 1rem;
+}
+
+.column-diensten {
+	padding: 1rem;
+}
+
+
+.spacing {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+} 
+
+.img-hover-zoom--brightness  {
+	transition: transform 1s, filter 1.5s ease-in-out;
+	transform-origin: center center;
+	filter: brightness(60%);
+ }
+
+ .img-hover-zoom--brightness:hover  {
+	filter: brightness(100%);
+	transform: scale(1.045);
+ }
+
+ /***** Diensten PAGE!!! ***/
