@@ -503,10 +503,18 @@ cite {
    font-size: 17px;
 }
 
+.col-overons {
+   font-size: 17px;
+}
+
+h1 {
+   display: inline;
+}
 
 
 .overons-bold {
    color: #5271FF;
+   font-size: 17px;
 }
 
 
