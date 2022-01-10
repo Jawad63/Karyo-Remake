@@ -1,4 +1,4 @@
-/* JS for navbar */
+/* Jquery for navbar */
 
 $(document).ready(function () {
 
@@ -15,7 +15,7 @@ $(document).ready(function () {
 comment." */
 
 
-/* JS for diensten image filter : */ 
+/* Jquery for diensten image filter : */ 
 
 $('.filter-button').on('click', (e) => {
     const filter = $(e.target).attr('data-filter');
