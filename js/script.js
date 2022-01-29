@@ -92,8 +92,6 @@ $(function () {
   })
 });
 
-// File size restriction: 
-
 
 
 
