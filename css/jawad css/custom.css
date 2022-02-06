@@ -495,12 +495,48 @@ cite {
 
 /**************************************** Here Starts the styling of over ons *******************************************/
 
+
 .col-overons p {
    font-size: 17px;
 }
 
 .col-overons {
    font-size: 17px;
+   padding: 3rem;
+}
+
+.colomns-overons-text {
+   margin: 4rem;
+   padding: 2rem;
+   text-align: center;
+   color:black;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+   background-color: rgba(255, 255, 255, 0.2);
+}
+
+.colomns-overons {
+   background-color: rgba(255, 255, 255, 0.2);
+   padding: 2rem;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+   margin-left: 60%;
+   text-align: center;
+}
+
+.image-colomn-one {
+   background-image: url('../../images/over-ons-pics/KARYO\ foto\ 123.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 2rem;
+}
+
+.image-colomn-two {
+   background-image: url('../../images/over-ons-pics/image00001.jpeg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 2rem;
+
 }
 
 h1 {
@@ -554,7 +590,7 @@ h1 {
 }
 
 .refenties-title {
-   color: #5271ff;
+   color: black;
    font-weight: 700;
    text-transform: uppercase;
    padding-bottom: 2rem;
@@ -564,6 +600,9 @@ h1 {
    color: blue;
 }
 
+.text-on-pic {
+   color:black;
+}
 .ref-one {
    padding-left: 9%;
 }
