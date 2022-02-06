@@ -494,7 +494,9 @@ cite {
 /**************************************** Here Ends the styling of Team *******************************************/
 
 /**************************************** Here Starts the styling of over ons *******************************************/
-
+p {
+   margin-bottom: 0 !important;
+}
 
 .col-overons p {
    font-size: 17px;
@@ -503,23 +505,46 @@ cite {
 .col-overons {
    font-size: 17px;
    padding: 3rem;
+   color: black;
+}
+
+.container-over-ons {
+   background-color: whitesmoke;
 }
 
 .colomns-overons-text {
-   margin: 4rem;
    padding: 2rem;
    text-align: center;
    color:black;
-   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
    background-color: rgba(255, 255, 255, 0.2);
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+   margin-left: 5%;
 }
 
-.colomns-overons {
+.colomns-overons-text-two {
+   padding: 2rem;
+   text-align: center;
+   color:black;
    background-color: rgba(255, 255, 255, 0.2);
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+   margin-right: 4%;
+}  
+
+
+.colomns-overons {
+   background-color: rgba(255, 255, 255, 0.4);
    padding: 2rem;
    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-   margin-left: 60%;
+   margin-left: 50%;
    text-align: center;
+}
+
+.colomns-overons-two {
+   background-color: rgba(255, 255, 255, 0.4);
+   padding: 2rem;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+   text-align: center;
+   margin-left: 4%;
 }
 
 .image-colomn-one {
@@ -528,6 +553,7 @@ cite {
    background-repeat: no-repeat;
    background-size: cover;
    padding: 2rem;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 
 .image-colomn-two {
@@ -536,6 +562,8 @@ cite {
    background-repeat: no-repeat;
    background-size: cover;
    padding: 2rem;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+   justify-content: space-between;
 
 }
 
@@ -544,8 +572,9 @@ h1 {
 }
 
 .overons-bold {
-   color: #5271ff;
+   color: goldenrod;
    font-size: 17px;
+   text-shadow: black 1px 1px;
 }
 
 .button-haktan {
