@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 * {
    margin: auto;
@@ -8,21 +8,18 @@
 
 html {
    font-size: 62.5%;
-   font-family: 'Noto Sans', sans-serif;
+   font-family: "Noto Sans", sans-serif;
    scroll-behavior: smooth;
    padding: env(safe-area-inset);
-
 }
 
-@media only screen 
-   and (device-width: 414px) 
-   and (device-height: 896px) 
-   and (-webkit-device-pixel-ratio: 2) { }
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+}
 
-
-html , body {
+html,
+body {
    overflow-x: hidden;
-   font-family: 'Noto Sans', sans-serif;
+   font-family: "Noto Sans", sans-serif;
    color: #505962;
 }
 
@@ -30,24 +27,17 @@ li {
    list-style: none;
 }
 
-
-
 a {
    text-decoration: none;
 }
 
 /*Here goes the styling for social icons: */
 
-
-
-
-
 /**************************************** Here Starts the styling of navbar *******************************************/
 
-.karyo-logo img{
+.karyo-logo img {
    width: 150px;
    height: 60px;
-
 }
 
 .banner-image {
@@ -63,7 +53,7 @@ a {
    padding: 2rem;
 }
 
-.navbar-nav{
+.navbar-nav {
    justify-content: space-between;
    align-items: center;
    letter-spacing: 2px;
@@ -81,7 +71,7 @@ a {
 }
 
 .nav-links:hover {
-   color: #5271FF;
+   color: #5271ff;
 }
 
 .offerte {
@@ -97,15 +87,15 @@ a {
 }
 
 .btn {
-   background-color: #5271FF;
+   background-color: #5271ff;
    font-size: 13px;
    color: white;
 }
 
-.navbar-toggler{
+.navbar-toggler {
    width: 47px;
    height: 34px;
-   background-color: #5271FF;
+   background-color: #5271ff;
 }
 
 .navbar-toggler .line {
@@ -120,7 +110,7 @@ a {
    text-transform: uppercase;
    font-size: 5rem;
    font-weight: 900;
-   color: #5271FF;
+   color: #5271ff;
    text-shadow: 0.1rem 0.1rem 0.1rem black;
 }
 
@@ -129,12 +119,12 @@ a {
    text-transform: uppercase;
    font-size: 2.5rem;
    font-weight: 700;
-   letter-spacing: .3rem;
+   letter-spacing: 0.3rem;
    text-shadow: 0.1rem 0.1rem 0.1rem black;
    padding-bottom: 2rem;
 }
 
-.button{
+.button {
    color: white;
    text-transform: uppercase;
    font-size: 1.5rem;
@@ -153,7 +143,7 @@ a {
    padding-bottom: 3rem;
 }
 
-.heading span{
+.heading span {
    color: #5271ff;
    font-weight: 700;
    text-transform: uppercase;
@@ -165,138 +155,134 @@ a {
 }
 
 div .heading {
-   padding-top: 5% ;
+   padding-top: 5%;
    padding-bottom: 8%;
 }
 
-.heading :hover{
+.heading :hover {
    color: blue;
 }
 
 .heading-five {
    padding-top: 3rem;
    padding-bottom: 3rem;
-   text-shadow: 2px 2px rgb(0,0,0, 0.8) ;
+   text-shadow: 2px 2px rgb(0, 0, 0, 0.8);
    color: white;
 }
 
-.heading-five span{
+.heading-five span {
    color: white;
    font-weight: 700;
    text-transform: uppercase;
    font-size: 4rem;
    text-align: center;
-   border-bottom: 4px solid #5271FF;
+   border-bottom: 4px solid #5271ff;
    letter-spacing: 3px;
 }
-
 hr {
    color: white;
    border: 2px solid white;
 }
 
-
-*, *:before, *:after{
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing:border-box;
-  box-sizing: border-box;
+*,
+*:before,
+*:after {
+   margin: 0;
+   padding: 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
 }
 
-
-
-.main-title{
-  color: #2d2d2d;
-  text-align: center;
-  text-transform: capitalize;
-  padding: 0.7em 0;
+.main-title {
+   color: #2d2d2d;
+   text-align: center;
+   text-transform: capitalize;
+   padding: 0.7em 0;
 }
-
 
 .content-main {
-  position: relative;
-  width: 90%;
-  max-width: 400px;
-  margin: auto;
-  overflow: hidden;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+   position: relative;
+   width: 90%;
+   max-width: 400px;
+   margin: auto;
+   overflow: hidden;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .content-main .content-overlay {
-  background: rgba(0,0,0,0.7);
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  opacity: 0.5;
-  -webkit-transition: all 0.4s ease-in-out 0s;
-  -moz-transition: all 0.4s ease-in-out 0s;
-  transition: all 0.4s ease-in-out 0s;
+   background: rgba(0, 0, 0, 0.7);
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   left: 0;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   opacity: 0.5;
+   -webkit-transition: all 0.4s ease-in-out 0s;
+   -moz-transition: all 0.4s ease-in-out 0s;
+   transition: all 0.4s ease-in-out 0s;
 }
 
-.content-main:hover .content-overlay{
-  opacity: 1;
+.content-main:hover .content-overlay {
+   opacity: 1;
 }
 
-.content-image{
-  width: 100%;
+.content-image {
+   width: 100%;
 }
 
 .content-details {
-  position: absolute;
-  text-align: center;
-  padding-left: 1em;
-  padding-right: 1em;
-  width: 100%;
-  top: 50%;
-  left: 50%;
-  opacity: 0;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
+   position: absolute;
+   text-align: center;
+   padding-left: 1em;
+   padding-right: 1em;
+   width: 100%;
+   top: 50%;
+   left: 50%;
+   opacity: 0;
+   -webkit-transform: translate(-50%, -50%);
+   -moz-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   -webkit-transition: all 0.3s ease-in-out 0s;
+   -moz-transition: all 0.3s ease-in-out 0s;
+   transition: all 0.3s ease-in-out 0s;
 }
 
-.content-main .content-details{
-  top: 50%;
-  left: 50%;
-  opacity: 5;
+.content-main .content-details {
+   top: 50%;
+   left: 50%;
+   opacity: 5;
 }
 
-.content-details h3{
-  color: #fff;
-  font-weight: 500;
-  letter-spacing: 0.15em;
-  margin-bottom: 0.5em;
-  text-transform: uppercase;
+.content-details h3 {
+   color: #fff;
+   font-weight: 500;
+   letter-spacing: 0.15em;
+   margin-bottom: 0.5em;
+   text-transform: uppercase;
 }
 
-.content-details p{
-  color: #fff;
-  font-size: 16px;
+.content-details p {
+   color: #fff;
+   font-size: 16px;
 }
 
-
-.fadeIn-bottom{
-  top: 80%;
+.fadeIn-bottom {
+   top: 80%;
 }
 
-.fadeIn-top{
-  top: 20%;
+.fadeIn-top {
+   top: 20%;
 }
 
-.fadeIn-left{
-  left: 20%;
+.fadeIn-left {
+   left: 20%;
 }
 
-.fadeIn-right{
-  left: 80%;
+.fadeIn-right {
+   left: 80%;
 }
 
 .diensten-text-bottom {
@@ -311,7 +297,7 @@ hr {
    font-size: 20px;
 }
 
-.button-primary{
+.button-primary {
    text-align: center;
    background-color: white;
    padding-bottom: 4%;
@@ -327,25 +313,22 @@ hr {
    padding: 0.6rem 2rem 0.6rem 2rem;
 }
 
-
-
-
 /**************************************** Here Ends the styling of Diensten *******************************************/
 
 /**************************************** Here Starts the styling of service section *******************************************/
-.parallax { 
+.parallax {
    /* Set a specific height */
-   min-height: 50rem; 
- 
+   min-height: 50rem;
+
    /* Create the parallax scrolling effect */
    background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
- }
+}
 
 .parallax-under-go {
-    background-color: rgba(0, 0, 0, 0.2);
+   background-color: rgba(0, 0, 0, 0.2);
 }
 
 .second-section {
@@ -353,49 +336,46 @@ hr {
 }
 
 .fa-inverse {
-   color: rgba(255, 255, 255, 0.)
+   color: rgba(255, 255, 255, 0);
 }
 
- .heading-service {
+.heading-service {
    color: white;
    font-size: 5rem;
    font-weight: 600;
    text-align: center;
- }
+}
 
- .span-service {
+.span-service {
    border-bottom: 5px solid goldenrod;
    letter-spacing: 4px;
    color: goldenrod;
 }
 
-
-
- .heading-service h3:hover {
+.heading-service h3:hover {
    color: goldenrod;
- } 
+}
 
- .each-card {
+.each-card {
    margin: 3rem;
    padding: 3rem;
-  /* box-shadow: white 0px 20px 30px -10px; */
+   /* box-shadow: white 0px 20px 30px -10px; */
 
-  background-color: rgba(0, 0, 0, 0.2);
- }
+   background-color: rgba(0, 0, 0, 0.2);
+}
 
- .col-service-bar {
+.col-service-bar {
    padding: 1rem;
    text-align: center;
- }
+}
 
 .parallax-text {
-   text-shadow: 2px 2px rgb(0,0,0, 0.8) ;
+   text-shadow: 2px 2px rgb(0, 0, 0, 0.8);
    color: white;
    text-transform: uppercase;
    font-weight: 700;
    font-size: 2.2rem;
 }
-
 
 .parallax-paragraph {
    color: white;
@@ -417,14 +397,13 @@ hr {
 
 /**************************************** Here Starts the styling of Beoordelingen *******************************************/
 
-
-.heading-beoordeel span{
+.heading-beoordeel span {
    color: #5271ff;
    font-weight: 700;
    text-transform: uppercase;
    font-size: 4rem;
    text-align: center;
-   
+
    border-bottom: 4px solid #5271ff;
    letter-spacing: 3px;
 }
@@ -445,7 +424,7 @@ hr {
 */
 
 .comments {
-   text-align: left ;
+   text-align: left;
    margin: 3rem;
 }
 
@@ -471,7 +450,6 @@ cite {
    font-size: 17px;
 }
 
-
 /**************************************** Here Ends the styling of Beoordelingen *******************************************/
 
 /**************************************** Here Starts the styling of Team *******************************************/
@@ -482,7 +460,6 @@ cite {
    text-align: center;
 }
 
-
 .card-title {
    font-size: 2.8rem;
    font-weight: 700;
@@ -490,8 +467,8 @@ cite {
 }
 
 .card-slogan {
-   color: #5271FF;
-   font-size: 2.4rem ;
+   color: #5271ff;
+   font-size: 2.4rem;
    font-weight: 600;
 }
 
@@ -509,8 +486,6 @@ cite {
    border: 1px solid black;
 }
 
-
-
 .social {
    word-spacing: 2rem;
    font-size: 2.5rem;
@@ -519,8 +494,6 @@ cite {
 /**************************************** Here Ends the styling of Team *******************************************/
 
 /**************************************** Here Starts the styling of over ons *******************************************/
-
-
 
 .col-overons p {
    font-size: 17px;
@@ -534,13 +507,10 @@ h1 {
    display: inline;
 }
 
-
 .overons-bold {
-   color: #5271FF;
+   color: #5271ff;
    font-size: 17px;
 }
-
-
 
 .button-haktan {
    color: white;
@@ -553,7 +523,6 @@ h1 {
 .button-haktan:hover {
    color: black;
 }
-
 
 .heading-ref {
    color: #5271ff;
@@ -576,8 +545,6 @@ h1 {
    word-spacing: 3.5px;
 }
 
-
-
 .something {
    padding: 2rem 15% 0 15%;
 }
@@ -597,22 +564,18 @@ h1 {
    color: blue;
 }
 
-
-
 .ref-one {
    padding-left: 9%;
 }
-
 
 .ref-two {
    padding-top: 6.3rem;
    padding-left: 9%;
 }
 
-      /**************************************** Here Ends the styling of over ons *******************************************/
+/**************************************** Here Ends the styling of over ons *******************************************/
 
-      /**************************************** Here Starts the styling of Contact *******************************************/
-
+/**************************************** Here Starts the styling of Contact *******************************************/
 
 .container-contact {
    padding-top: 7rem;
@@ -622,7 +585,7 @@ h1 {
    background-repeat: no-repeat;
    background-size: cover;
    padding: 5%;
-   min-height: 70rem; 
+   min-height: 70rem;
    /* Create the parallax scrolling effect */
    background-attachment: fixed;
    background-position: center;
@@ -631,7 +594,7 @@ h1 {
 .heading-footer {
    font-size: 5rem;
    font-weight: 700;
-   color: #5271FF;
+   color: #5271ff;
    border-bottom: 2px solid blue;
 }
 
@@ -639,8 +602,6 @@ h1 {
    max-width: 100%;
    height: auto;
 }
-
-
 
 .contact-left-section {
    margin-top: 5%;
@@ -650,11 +611,9 @@ h1 {
    background-color: rgba(255, 255, 255, 0.7);
 }
 
-
 .contact-right-section {
-   padding-top: 8% ;
+   padding-top: 8%;
 }
-
 
 .contact-title {
    padding-bottom: 2rem;
@@ -712,54 +671,48 @@ h1 {
    font-size: 2.5rem;
 }
 
-
-
 .white-text {
    color: white;
 }
 
 /***** Diensten PAGE!!! ***/
 
-
 .new-nav {
-	padding-top: 20rem;
+   padding-top: 20rem;
 }
 
-.filter-nav{
-	padding-bottom: 3rem;
+.filter-nav {
+   padding-bottom: 3rem;
 }
-
 
 .button-underline {
-	padding : 2rem;
-
+   padding: 2rem;
 }
 
 .col-md-3 .item {
-	padding: 1rem;
+   padding: 1rem;
 }
 
 .column-diensten {
-	padding: 1rem;
+   padding: 1rem;
 }
 
-
 .spacing {
-	max-width: 100%;
-	height: auto;
-	vertical-align: middle;
-	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-} 
+   max-width: 100%;
+   height: auto;
+   vertical-align: middle;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
 
-.img-hover-zoom--brightness  {
-	transition: transform 1s, filter 1.5s ease-in-out;
-	transform-origin: center center;
-	filter: brightness(60%);
- }
+.img-hover-zoom--brightness {
+   transition: transform 1s, filter 1.5s ease-in-out;
+   transform-origin: center center;
+   filter: brightness(60%);
+}
 
- .img-hover-zoom--brightness:hover  {
-	filter: brightness(100%);
-	transform: scale(1.045);
- }
+.img-hover-zoom--brightness:hover {
+   filter: brightness(100%);
+   transform: scale(1.045);
+}
 
- /***** Diensten PAGE!!! ***/
+/***** Diensten PAGE!!! ***/
