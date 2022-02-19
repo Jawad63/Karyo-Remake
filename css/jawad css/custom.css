@@ -491,6 +491,88 @@ cite {
    font-size: 2.5rem;
 }
 
+.team-text-background {
+   width: 300px;
+   height: 200px;
+   background-color: white;
+   position: relative;
+   transition: all 0.5s ease;
+}
+
+.team-col:hover > .team-text-background {
+   width: 300px;
+   height: 300px;
+   background-color: white;
+   position: relative;
+}
+
+.team-col:hover > .team-text-background > .team-backgroundimage {
+   width: 300px;
+   height: 300px;
+   position: absolute;
+   bottom: 0%;
+   left: 0%;
+   transition: all 0.25s ease;
+   background-image: url("/Images/Team/Yusuf-team.jpeg");
+   background-size: cover;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+   transform: scale(1);
+   border-radius: 0%;
+}
+
+.team-backgroundimage {
+   width: 120px;
+   height: 120px;
+   position: absolute;
+   bottom: 65%;
+   left: 30%;
+   transition: all 0.5s ease;
+   background-image: url("/Images/Team/Yusuf-team.jpeg");
+   background-size: cover;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+   border-radius: 25%;
+}
+
+.team-text-wrapper {
+   padding: 2rem 5rem;
+   position: absolute;
+   top: 50%;
+   left: 9%;
+   visibility: visible;
+   transition: all 0.1s ease;
+   z-index: 1;
+}
+.team-text-background > .team-backgroundimage > p {
+   visibility: visible;
+   transition: all 0.25s ease;
+   color: black;
+}
+
+.team-col:hover > .team-backgroundimage > p {
+   visibility: hidden;
+   transform: scale(1.1);
+   z-index: 1;
+}
+
+.team-col:hover > .team-text-background > .team-text-wrapper {
+   visibility: hidden;
+   transform: opacity 1.2s;
+}
+
+.team-text-background > .team-backgroundimage > h2 {
+   visibility: visible;
+   transition: all 0.25s ease;
+   color: black;
+}
+
+.team-col:hover > .team-backgroundimage > h2 {
+   visibility: hidden;
+   transform: scale(1.1);
+}
+
+.team-name {
+}
+
 /**************************************** Here Ends the styling of Team *******************************************/
 
 /**************************************** Here Starts the styling of over ons *******************************************/
@@ -515,7 +597,7 @@ p {
 .colomns-overons-text {
    padding: 2rem;
    text-align: center;
-   color:black;
+   color: black;
    background-color: rgba(255, 255, 255, 0.2);
    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
    margin-left: 5%;
@@ -524,12 +606,11 @@ p {
 .colomns-overons-text-two {
    padding: 2rem;
    text-align: center;
-   color:black;
+   color: black;
    background-color: rgba(255, 255, 255, 0.2);
    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
    margin-right: 4%;
-}  
-
+}
 
 .colomns-overons {
    background-color: rgba(255, 255, 255, 0.4);
@@ -548,7 +629,7 @@ p {
 }
 
 .image-colomn-one {
-   background-image: url('../../images/over-ons-pics/KARYO\ foto\ 123.png');
+   background-image: url("../../images/over-ons-pics/KARYO\ foto\ 123.png");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -557,14 +638,13 @@ p {
 }
 
 .image-colomn-two {
-   background-image: url('../../images/over-ons-pics/image00001.jpeg');
+   background-image: url("../../images/over-ons-pics/image00001.jpeg");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
    padding: 2rem;
    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
    justify-content: space-between;
-
 }
 
 h1 {
@@ -630,7 +710,7 @@ h1 {
 }
 
 .text-on-pic {
-   color:black;
+   color: black;
 }
 .ref-one {
    padding-left: 9%;
