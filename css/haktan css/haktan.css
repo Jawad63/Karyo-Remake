@@ -215,8 +215,6 @@ a {
 /*          Here starts styling for service page         */
 
 .service-container {
-    padding-top: 5%;
-    padding-bottom: 3%;
     margin-top: 7rem;
 }
 
@@ -261,9 +259,44 @@ h4 {
 }
 
 .service__space {
-    width: 100px;
-    height: 100px;
+    width: 600px;
+    height: 300px;
+    position: relative;
     background-color: red;
+    background-image: url("./Images/Portfolio.one.jpg");
+}
+
+.service__cardplace {
+    padding: 10px;
+    margin-bottom: 5rem;
+    background-color: blue;
+}
+
+.service__cardone {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+    top: 64%;
+    left: 84%;
+}
+
+.service__cardtwo {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    position: absolute;
+    top: 62%;
+    left: 82%;
+}
+
+.service__cardthree {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    position: absolute;
+    top: 60%;
+    left: 80%;
 }
 
 /*          End styling for service page         */
