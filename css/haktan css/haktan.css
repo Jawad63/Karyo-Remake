@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap");
 
 * {
     margin: auto;
@@ -8,145 +8,132 @@
 
 html {
     font-size: 62.5%;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     scroll-behavior: smooth;
     padding: env(safe-area-inset);
-
 }
 
-@media only screen 
-    and (device-width: 414px) 
-    and (device-height: 896px) 
-    and (-webkit-device-pixel-ratio: 2) { }
-
-
-html , body {
-   overflow-x: hidden;
-   font-family: 'STIX Two Math', serif;
-   color: #505962;
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
 }
 
-
+html,
+body {
+    overflow-x: hidden;
+    font-family: "STIX Two Math", serif;
+    color: #505962;
+}
 
 a {
     text-decoration: none;
- 
 }
 
+/* Here starts the styling of navbar */
 
-
-
-/* Here starts the styling of navbar */ 
-
-
-.karyo-logo img{
+.karyo-logo img {
     width: 150px;
     height: 60px;
- }
+}
 
- .banner-image {
+.banner-image {
     width: 100%;
     height: 80vh;
     padding-top: 5rem;
- }
- 
- .navbar {
+}
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
- }
- 
- .navbar-nav{
+}
+
+.navbar-nav {
     justify-content: space-between;
     align-items: center;
     letter-spacing: 2px;
- }
- 
- .nav-item {
+}
+
+.nav-item {
     margin: 1rem;
- }
- 
- .nav-links {
+}
+
+.nav-links {
     text-transform: uppercase;
     font-size: 14.4px;
     font-weight: 700;
     color: blue;
- }
- 
- .nav-links:hover {
-    color: #5271FF;
- }
- 
- .offerte {
+}
+
+.nav-links:hover {
+    color: #5271ff;
+}
+
+.offerte {
     text-transform: uppercase;
     font-size: 14.4px;
     font-weight: 400;
     color: white;
- }
- 
- .offerte:hover {
+}
+
+.offerte:hover {
     transition: 0.5s;
     color: black;
- }
- 
- .btn {
-    background-color: #5271FF;
+}
+
+.btn {
+    background-color: #5271ff;
     font-size: 13px;
     color: white;
- }
- 
- .navbar-toggler{
+}
+
+.navbar-toggler {
     width: 47px;
     height: 34px;
-    background-color: #5271FF;
- }
- 
- .navbar-toggler .line{
+    background-color: #5271ff;
+}
+
+.navbar-toggler .line {
     width: 100%;
     float: left;
     height: 2px;
     background-color: #fff;
     margin-bottom: 5px;
- }
- 
- .karyo {
+}
+
+.karyo {
     text-transform: uppercase;
     font-size: 5rem;
     font-weight: 900;
-    color: #5271FF;
+    color: #5271ff;
     text-shadow: 0.1rem 0.1rem 0.1rem black;
- }
- 
- .slogan {
+}
+
+.slogan {
     color: white;
     text-transform: uppercase;
     font-size: 2.5rem;
     font-weight: 700;
-    letter-spacing: .3rem;
+    letter-spacing: 0.3rem;
     text-shadow: 0.1rem 0.1rem 0.1rem black;
     padding-bottom: 2rem;
- }
- 
- .button{
+}
+
+.button {
     color: white;
     text-transform: uppercase;
     font-size: 1.5rem;
     background-color: #5271ff;
     padding: 0.9rem;
- }
- 
- .button:hover {
+}
+
+.button:hover {
     background-color: blue;
     color: white;
- }
- 
+}
 
-/*          end styling for service content           */  
-
+/*          end styling for service content           */
 
 /*          start styling for offerte content         */
-
 
 .container-offerte {
     padding-top: 12rem;
@@ -178,7 +165,7 @@ a {
 
 .offerte-title {
     font-size: 16px;
-    color: #5271FF;
+    color: #5271ff;
     letter-spacing: 3px;
 }
 
@@ -198,8 +185,8 @@ a {
 }
 
 .span-service-one {
-    color: #5271FF;
-    border-bottom: 2.3px solid #5271FF;
+    color: #5271ff;
+    border-bottom: 2.3px solid #5271ff;
     font-size: 20px;
     padding-bottom: 0.5rem;
     text-transform: uppercase;
@@ -207,7 +194,7 @@ a {
 }
 
 .heading-line {
-    color: #5271FF;
+    color: #5271ff;
 }
 
 .textarea-styling {
@@ -223,13 +210,9 @@ a {
     margin-top: 0.7rem;
 }
 
-
 /*          End styling for offerte content              */
 
-
 /*          Here starts styling for service page         */
-
-
 
 .service-container {
     padding-top: 5%;
@@ -241,15 +224,17 @@ a {
     box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
     padding: 2%;
 }
- 
+
 .my-style-img {
-    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+        rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .service-image {
     width: 70rem;
     height: 30rem;
-    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+        rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .service-colums {
@@ -258,7 +243,7 @@ a {
 
 h2 {
     text-align: left;
-    color: #5271FF;
+    color: #5271ff;
     font-weight: 700;
     font-size: 24px;
 }
@@ -275,49 +260,10 @@ h4 {
     padding-top: 20px;
 }
 
-
-
-
+.service__space {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
 
 /*          End styling for service page         */
-
-
-
-
-/*         OVERLAY             
-
-.overlay-picture {
-    
-    margin-top: 50px;  
-}
-
-
-
-.container-fluid {
-    posi
-}
-
-
-.text {
-    padding: 15%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-
-.custom-card {
-    width: 500px;
-
-}
-*/
-
-
-
-
-
-
-
-
-
-
-
-
