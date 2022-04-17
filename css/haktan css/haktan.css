@@ -214,36 +214,11 @@ a {
 
 /*          Here starts styling for service page         */
 
-.service-container {
-    margin-top: 7rem;
-}
-
-.service-text {
-    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
-    padding: 2%;
-}
-
-.my-style-img {
-    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
-        rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-}
-
-.service-image {
-    width: 70rem;
-    height: 30rem;
-    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
-        rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-}
-
-.service-colums {
-    padding-bottom: 4%;
-}
-
 h2 {
     text-align: left;
     color: #5271ff;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 h3 {
@@ -258,45 +233,35 @@ h4 {
     padding-top: 20px;
 }
 
-.service__space {
-    width: 600px;
-    height: 300px;
-    position: relative;
-    background-color: red;
-    background-image: url("./Images/Portfolio.one.jpg");
+.service-container {
+    margin-top: 7rem;
 }
 
-.service__cardplace {
-    padding: 10px;
-    margin-bottom: 5rem;
-    background-color: blue;
+.service__title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
-.service__cardone {
-    width: 150px;
-    height: 150px;
-    background-color: black;
-    position: absolute;
-    top: 64%;
-    left: 84%;
+.service__backgroundone {
+    height: 350px;
+    width: 400px;
 }
 
-.service__cardtwo {
-    width: 150px;
-    height: 150px;
-    background-color: blue;
-    position: absolute;
-    top: 62%;
-    left: 82%;
+.service__backgroundtwo {
+    height: 350px;
 }
 
-.service__cardthree {
-    width: 150px;
-    height: 150px;
-    background-color: green;
-    position: absolute;
-    top: 60%;
-    left: 80%;
+.service__backgroundthree {
+    height: 350px;
+}
+
+.service__backgroundfour {
+    height: 350px;
+}
+
+.row {
+    padding: 5rem;
 }
 
 /*          End styling for service page         */
