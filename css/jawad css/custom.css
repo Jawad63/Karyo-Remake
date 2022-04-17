@@ -705,14 +705,10 @@ h1 {
 }
 
 .refenties-title {
-   color: black;
+   color: goldenrod;
    font-weight: 700;
    text-transform: uppercase;
    padding-bottom: 2rem;
-}
-
-.refenties-title:hover {
-   color: blue;
 }
 
 .text-on-pic {
