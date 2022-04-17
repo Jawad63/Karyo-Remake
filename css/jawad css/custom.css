@@ -31,6 +31,10 @@ a {
    text-decoration: none;
 }
 
+.space-container {
+   margin: 5% 0% 5% 0%;
+}
+
 /*Here goes the styling for social icons: */
 
 /**************************************** Here Starts the styling of navbar *******************************************/
@@ -67,11 +71,11 @@ a {
    text-transform: uppercase;
    font-size: 14.4px;
    font-weight: 700;
-   color: blue;
+   color: #FFB302;
 }
 
 .nav-links:hover {
-   color: #5271ff;
+   color: goldenrod;
 }
 
 .offerte {
@@ -87,15 +91,24 @@ a {
 }
 
 .btn {
-   background-color: #5271ff;
+   background-color: #FFB302;
    font-size: 13px;
    color: white;
+}
+
+.diensten-btn {
+   background-color: #FFB302;
+   margin-top: 2rem;
+}
+
+.diensten-btn:hover {
+   background-color: goldenrod;
 }
 
 .navbar-toggler {
    width: 47px;
    height: 34px;
-   background-color: #5271ff;
+   background-color: goldenrod;
 }
 
 .navbar-toggler .line {
@@ -110,7 +123,7 @@ a {
    text-transform: uppercase;
    font-size: 5rem;
    font-weight: 900;
-   color: #5271ff;
+   color: goldenrod;
    text-shadow: 0.1rem 0.1rem 0.1rem black;
 }
 
@@ -128,12 +141,12 @@ a {
    color: white;
    text-transform: uppercase;
    font-size: 1.5rem;
-   background-color: #5271ff;
+   background-color: #FFB302;
    padding: 0.5rem;
 }
 
 .button:hover {
-   background-color: blue;
+   background-color: goldenrod;
    color: white;
 }
 /**************************************** Here Ends the styling of Header *******************************************/
@@ -144,23 +157,18 @@ a {
 }
 
 .heading span {
-   color: #5271ff;
+   color: goldenrod !important;
    font-weight: 700;
    text-transform: uppercase;
    font-size: 4rem;
    text-align: center;
-   padding-bottom: 1.9rem;
-   border-bottom: 4px solid #5271ff;
+   padding-bottom: 1rem;
+   border-bottom: 4px solid goldenrod;
    letter-spacing: 3px;
 }
 
-div .heading {
-   padding-top: 5%;
-   padding-bottom: 8%;
-}
-
 .heading :hover {
-   color: blue;
+   color: goldenrod;
 }
 
 .heading-five {
@@ -176,9 +184,10 @@ div .heading {
    text-transform: uppercase;
    font-size: 4rem;
    text-align: center;
-   border-bottom: 4px solid #5271ff;
+   border-bottom: 4px solid goldenrod;
    letter-spacing: 3px;
 }
+
 hr {
    color: white;
    border: 2px solid white;
@@ -337,6 +346,7 @@ hr {
 
 .fa-inverse {
    color: rgba(255, 255, 255, 0);
+   color: white;
 }
 
 .heading-service {
@@ -398,13 +408,13 @@ hr {
 /**************************************** Here Starts the styling of Beoordelingen *******************************************/
 
 .heading-beoordeel span {
-   color: #5271ff;
+   color: goldenrod;
    font-weight: 700;
    text-transform: uppercase;
    font-size: 4rem;
    text-align: center;
 
-   border-bottom: 4px solid #5271ff;
+   border-bottom: 4px solid goldenrod;
    letter-spacing: 3px;
 }
 
@@ -473,7 +483,7 @@ cite {
 }
 
 .card-slogan:hover {
-   color: blue;
+   color: goldenrod;
 }
 
 .card-text {
@@ -590,9 +600,6 @@ p {
    color: black;
 }
 
-.container-over-ons {
-   background-color: whitesmoke;
-}
 
 .colomns-overons-text {
    padding: 2rem;
@@ -661,26 +668,25 @@ h1 {
    color: white;
    text-transform: uppercase;
    font-size: 1.5rem;
-   background-color: #5271ff;
    padding: 0.8rem;
 }
 
 .button-haktan:hover {
-   color: black;
+   color: white;
 }
 
 .heading-ref {
-   color: #5271ff;
+   color: goldenrod;
    font-weight: 700;
    text-transform: uppercase;
    font-size: 2.5rem;
    text-align: center;
    padding-bottom: 1.9rem;
-   border-bottom: 2px solid #5271ff;
+   border-bottom: 2px solid goldenrod;
 }
 
 .heading-ref:hover {
-   color: blue;
+   color: goldenrod;
 }
 
 .referenties-list {
@@ -725,9 +731,7 @@ h1 {
 
 /**************************************** Here Starts the styling of Contact *******************************************/
 
-.container-contact {
-   padding-top: 7rem;
-}
+
 
 .row-contact {
    background-repeat: no-repeat;
@@ -742,8 +746,8 @@ h1 {
 .heading-footer {
    font-size: 5rem;
    font-weight: 700;
-   color: #5271ff;
-   border-bottom: 2px solid blue;
+   color: goldenrod;
+   border-bottom: 2px solid goldenrod;
 }
 
 .image-footer {
@@ -774,18 +778,18 @@ h1 {
 }
 
 .span-contact-one {
-   color: #5271ff;
+   color: goldenrod;
    font-weight: 700;
    text-transform: uppercase;
    font-size: 2.5rem;
    text-align: center;
    padding-bottom: 0.7rem;
    margin-bottom: 3rem;
-   border-bottom: 2px solid #5271ff;
+   border-bottom: 2px solid goldenrod;
 }
 
 .span-contact-one:hover {
-   color: blue;
+   color: goldenrod;
 }
 
 .text-area-placement {
@@ -800,7 +804,7 @@ h1 {
 
 .offerte-title {
    font-size: 1.6rem;
-   color: blue;
+   color: goldenrod;
    text-transform: uppercase;
    letter-spacing: 3px;
 }
