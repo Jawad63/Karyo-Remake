@@ -61,11 +61,11 @@ a {
     text-transform: uppercase;
     font-size: 14.4px;
     font-weight: 700;
-    color: blue;
+    color: goldenrod;
 }
 
 .nav-links:hover {
-    color: #5271ff;
+    color: #FFB302;
 }
 
 .offerte {
@@ -81,7 +81,7 @@ a {
 }
 
 .btn {
-    background-color: #5271ff;
+    background-color: goldenrod;
     font-size: 13px;
     color: white;
 }
@@ -165,7 +165,7 @@ a {
 
 .offerte-title {
     font-size: 16px;
-    color: #5271ff;
+    color: goldenrod;
     letter-spacing: 3px;
 }
 
@@ -185,8 +185,8 @@ a {
 }
 
 .span-service-one {
-    color: #5271ff;
-    border-bottom: 2.3px solid #5271ff;
+    color: goldenrod;
+    border-bottom: 2.3px solid goldenrod;
     font-size: 20px;
     padding-bottom: 0.5rem;
     text-transform: uppercase;
@@ -216,7 +216,7 @@ a {
 
 h2 {
     text-align: left;
-    color: #5271ff;
+    color: goldenrod;
     font-weight: 700;
     font-size: 30px;
 }
