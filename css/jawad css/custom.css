@@ -594,6 +594,10 @@ p {
    margin-bottom: 0 !important;
 }
 
+.paragraph_text {
+   font-size: 13px !important;
+}
+
 .col-overons p {
    font-size: 17px;
 }
