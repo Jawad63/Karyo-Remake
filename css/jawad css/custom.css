@@ -164,11 +164,11 @@ a {
    color: goldenrod !important;
    font-weight: 700;
    text-transform: uppercase;
-   font-size: 4rem;
+   font-size: 28px;
    text-align: center;
    padding-bottom: 1rem;
-   border-bottom: 4px solid goldenrod;
    letter-spacing: 3px;
+   text-shadow: 2px 2px rgb(0, 0, 0, 0.8);
 }
 
 .heading :hover {
@@ -183,12 +183,11 @@ a {
 }
 
 .heading-five span {
-   color: white;
+   color: goldenrod;
    font-weight: 700;
    text-transform: uppercase;
-   font-size: 4rem;
+   font-size: 28px;
    text-align: center;
-   border-bottom: 4px solid goldenrod;
    letter-spacing: 3px;
 }
 
@@ -355,7 +354,7 @@ hr {
 
 .heading-service {
    color: white;
-   font-size: 5rem;
+   font-size: 28px;
    font-weight: 600;
    text-align: center;
 }
@@ -415,11 +414,10 @@ hr {
    color: goldenrod;
    font-weight: 700;
    text-transform: uppercase;
-   font-size: 4rem;
+   font-size: 28px;
    text-align: center;
-
-   border-bottom: 4px solid goldenrod;
    letter-spacing: 3px;
+   text-shadow: 2px 2px rgb(0, 0, 0, 0.8);
 }
 
 .heading-beoordeel {
@@ -443,9 +441,7 @@ hr {
 }
 
 .comments-span {
-   font-size: 20px;
-   font-weight: 700;
-   letter-spacing: 1px;
+   font-size: 16px;
    word-spacing: 5px;
 }
 
@@ -593,9 +589,10 @@ cite {
 p {
    margin-bottom: 0 !important;
 }
+ 
 
 .paragraph_text {
-   font-size: 13px !important;
+   font-size: 14px !important;
 }
 
 .col-overons p {
@@ -613,9 +610,7 @@ p {
    padding: 2rem;
    text-align: center;
    color: black;
-   background-color: rgba(255, 255, 255, 0.2);
-   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-   margin-left: 5%;
+   background-color: rgba(255, 255, 255, 0.2);   margin-left: 5%;
 }
 
 .colomns-overons-text-two {
@@ -668,8 +663,12 @@ h1 {
 
 .overons-bold {
    color: goldenrod;
-   font-size: 17px;
+   font-size: 15px;
    text-shadow: black 1px 1px;
+}
+
+.titles-size {
+   font-size: 28px !important;
 }
 
 .button-haktan {
@@ -687,10 +686,10 @@ h1 {
    color: goldenrod;
    font-weight: 700;
    text-transform: uppercase;
-   font-size: 2.5rem;
+   font-size: 28px;
    text-align: center;
    padding-bottom: 1.9rem;
-   border-bottom: 2px solid goldenrod;
+   text-shadow: 2px 2px rgb(0, 0, 0, 0.8);
 }
 
 .heading-ref:hover {
@@ -703,6 +702,11 @@ h1 {
    padding-left: 1rem;
    word-spacing: 3.5px;
 }
+
+ul li , .referenties-list {
+   font-size: 14px !important;
+}
+
 
 .something {
    padding: 2rem 15% 0 15%;
@@ -748,10 +752,11 @@ h1 {
 }
 
 .heading-footer {
-   font-size: 5rem;
+   font-size: 28px;
    font-weight: 700;
    color: goldenrod;
-   border-bottom: 2px solid goldenrod;
+   text-shadow: 2px 2px rgb(0, 0, 0, 0.8);
+   text-transform: uppercase;
 }
 
 .image-footer {
@@ -814,13 +819,12 @@ h1 {
 }
 
 .big-text-styling {
-   font-size: 2.5rem;
-   font-weight: 900;
+   font-size: 28px;
+   font-weight: 700;
 }
 
 .small-text-styling {
-   font-size: 1.8rem;
-   font-weight: 600;
+   font-size: 15px;
 }
 
 .social-contact {
