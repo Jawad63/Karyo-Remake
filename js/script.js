@@ -44,6 +44,8 @@ $('.filter-button').on('click', (e) => {
       }
     }
 });
+
+
   
 /*========== CONTACT FORM INPUT VALIDATION ==========*/
 //Original Resource: https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form

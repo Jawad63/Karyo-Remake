@@ -514,12 +514,12 @@ cite {
    background-color: white;
    position: relative;
    transition: all 0.5s ease;
+   border: 2px solid goldenrod;
 }
 
 .team-col:hover > .team-text-background {
    width: 300px;
    height: 300px;
-   background-color: white;
    position: relative;
 }
 
@@ -538,11 +538,11 @@ cite {
 }
 
 .team-backgroundimage {
-   width: 120px;
-   height: 120px;
+   width: 150px;
+   height: 150px;
    position: absolute;
    bottom: 65%;
-   left: 30%;
+   left: 25%;
    transition: all 0.5s ease;
    background-image: url("/Images/Team/Yusuf-team.jpeg");
    background-size: cover;
