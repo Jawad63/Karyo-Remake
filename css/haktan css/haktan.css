@@ -65,7 +65,7 @@ a {
 }
 
 .nav-links:hover {
-    color: #FFB302;
+    color: #ffb302;
 }
 
 .offerte {
@@ -91,7 +91,7 @@ a {
     font-size: 13px;
     color: white;
     padding: 0.7rem;
- }
+}
 
 .navbar-toggler {
     width: 47px;
@@ -269,6 +269,32 @@ h4 {
 
 .row-service {
     padding: 5rem;
+}
+
+@media only screen and (max-width: 680px) {
+    .service__backgroundone {
+        height: 300px;
+        width: 320px;
+        margin-bottom: 20px;
+    }
+
+    .service__backgroundtwo {
+        height: 300px;
+        width: 320px;
+        margin-bottom: 10px;
+    }
+
+    .service__backgroundthree {
+        height: 300px;
+        width: 320px;
+        margin-bottom: 20px;
+    }
+
+    .service__backgroundfour {
+        height: 300px;
+        width: 320px;
+        margin-bottom: 10px;
+    }
 }
 
 /*          End styling for service page         */
