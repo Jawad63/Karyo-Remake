@@ -432,7 +432,7 @@ hr {
    padding-top: 5%;
 }
 
-.col {
+.col-wack {
    margin: 2rem;
 }
 
@@ -643,6 +643,10 @@ p {
       box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
       text-align: center;
       margin: 0 !important;
+   }
+
+   .col-wack {
+      margin: 0;
    }
 
    .colomns-overons-two {
