@@ -96,6 +96,13 @@ a {
    color: white;
 }
 
+.offerte-btn {
+   background-color: #5271ff;
+   font-size: 13px;
+   color: white;
+   padding: 0.7rem;
+}
+
 .btn-hover:hover {
    background-color: #FFB302;
 }
