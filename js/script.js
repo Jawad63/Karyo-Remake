@@ -15,42 +15,92 @@ $(document).ready(function () {
 comment." */
 
 
-/* Jquery for diensten image filter : */ 
 
-$('.filter-button').on('click', (e) => {
-    const filter = $(e.target).attr('data-filter');
-    console.log(filter);
-       const items = $('.item-content').parent();
-    for (item of items) {
-      if (filter == '') {
-        
-        $(item).addClass('animated zoomIn faster');
-        $(item).parent().addClass('animated zoomIn faster');
-        $(item).removeClass('d-none');
-        $(item).parent().removeClass('d-none');
-        console.log('x');
-      }
-      
-      else if ($(item).attr('data-category') == filter) {
+/*JavaScript for Diensten Gallery: */
+// Buttons: 
+const all = document.getElementById('all');
+const buttonOne = document.getElementById('one');
+const buttonTwo = document.getElementById('two');
+const buttonThree = document.getElementById('three');
+const buttonFour = document.getElementById('four');
 
-        $('#' + filter.replaceAll(" ", "-")).attr('style', 'display:block');
-         // console.log('#' + filter.replaceAll(" ", "-"));
+// Categories: 
+const rowOne = document.getElementById('m&v');
+const rowTwo = document.getElementById('c&t');
+const rowThree = document.getElementById('n&b');
+const rowFour = document.getElementById('t&m');
 
-          
-        $(item).addClass('animated zoomIn faster');
-        $(item).parent().addClass('animated zoomIn faster');
-        $(item).removeClass('d-none');
-        $(item).parent().removeClass('d-none');
-      }
-      
-      else {
-        $(item).addClass('d-md-none  d-lg-block');
-        $(item).parent().addClass('d-none');
-        $(item).removeClass('animated zoomIn faster');
-        $(item).parent().removeClass('animated zoomIn faster');
-      }
-    }
-});
+// text:
+const textOne = document.getElementById('text-one');
+const textTwo = document.getElementById('text-two');
+const textThree = document.getElementById('text-three');
+const textFour = document.getElementById('text-four');
+
+// Functionality for display: adding click events:
+
+all.onclick = function () {
+    rowOne.style.display = "flex";
+    rowTwo.style.display = "flex";
+    rowThree.style.display = "flex";
+    rowFour.style.display = "flex";
+
+    textOne.style.display = "none";
+    textTwo.style.display = "none";
+    textThree.style.display = "none";
+    textFour.style.display = "none";
+}
+
+buttonOne.onclick = function () {
+    rowOne.style.display = "flex";
+    rowTwo.style.display = "none";
+    rowThree.style.display = "none";
+    rowFour.style.display = "none";
+
+    textOne.style.display = "block";
+    textTwo.style.display = "none";
+    textThree.style.display = "none";
+    textFour.style.display = "none";
+}
+
+buttonTwo.onclick = function () {
+    rowOne.style.display = "none";
+    rowTwo.style.display = "flex";
+    rowThree.style.display = "none";
+    rowFour.style.display = "none";
+
+    textOne.style.display = "none";
+    textTwo.style.display = "block";
+    textThree.style.display = "none";
+    textFour.style.display = "none";
+}
+
+buttonThree.onclick = function () {
+    rowOne.style.display = "none";
+    rowTwo.style.display = "none";
+    rowThree.style.display = "flex";
+    rowFour.style.display = "none";
+
+    textOne.style.display = "none";
+    textTwo.style.display = "none";
+    textThree.style.display = "block";
+    textFour.style.display = "none";
+}
+
+buttonFour.onclick = function () {
+    rowOne.style.display = "none";
+    rowTwo.style.display = "none";
+    rowThree.style.display = "none";
+    rowFour.style.display = "flex";
+
+    textOne.style.display = "none";
+    textTwo.style.display = "none";
+    textThree.style.display = "none";
+    textFour.style.display = "block";
+}
+
+
+
+
 
 
   
