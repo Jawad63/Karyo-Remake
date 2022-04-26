@@ -8,7 +8,18 @@
 
 .para {
    display: none;
+   font-size: 14px;
+   padding: 2rem;
+   text-align: center;
+   border: 2px solid goldenrod;
 }
+
+.heading-text {
+   font-size: 2rem;
+   color: #ffb302;
+   font-weight: 600;
+}
+
 
 
 
