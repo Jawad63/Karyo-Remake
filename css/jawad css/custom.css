@@ -56,6 +56,8 @@ a {
 
 /**************************************** Here Starts the styling of navbar *******************************************/
 
+
+
 .karyo-logo img {
    width: 150px;
    height: 60px;
@@ -151,8 +153,9 @@ a {
    text-transform: uppercase;
    font-size: 5rem;
    font-weight: 900;
-   color: goldenrod;
+   color: #5271ff;
    text-shadow: 0.1rem 0.1rem 0.1rem black;
+
 }
 
 .slogan {
@@ -169,12 +172,12 @@ a {
    color: white;
    text-transform: uppercase;
    font-size: 1.5rem;
-   background-color: #ffb302;
+   background-color: #5271ff;
    padding: 0.5rem;
 }
 
 .button:hover {
-   background-color: goldenrod;
+   background-color: blue;
    color: white;
 }
 /**************************************** Here Ends the styling of Header *******************************************/
@@ -728,7 +731,6 @@ h1 {
 .overons-bold {
    color: goldenrod;
    font-size: 15px;
-   text-shadow: black 1px 1px;
 }
 
 .titles-size {
