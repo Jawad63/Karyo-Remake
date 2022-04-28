@@ -19,6 +19,20 @@
    color: #ffb302;
    font-weight: 600;
 }
+.filter-button {
+   padding: 0.7rem;
+   margin: 0.2rem;
+   font-size: 13px;
+   font-weight: 600;
+   border: none;
+   border-radius: 3px;
+   background-color: #ffb302;
+   text-transform: capitalize;
+}
+
+.filter-button:hover {
+   color: white;
+}
 
 
 html {
@@ -186,14 +200,13 @@ a {
 }
 
 .heading span {
-   color: goldenrod !important;
+   color: #5271ff !important;
    font-weight: 700;
    text-transform: uppercase;
    font-size: 28px;
    text-align: center;
    padding-bottom: 1rem;
    letter-spacing: 3px;
-   text-shadow: 2px 2px rgb(0, 0, 0, 0.8);
 }
 
 .heading :hover {
@@ -436,13 +449,11 @@ hr {
 /**************************************** Here Starts the styling of Beoordelingen *******************************************/
 
 .heading-beoordeel span {
-   color: goldenrod;
+   color: #5271ff;
    font-weight: 700;
    text-transform: uppercase;
    font-size: 28px;
-   text-align: center;
    letter-spacing: 3px;
-   text-shadow: 2px 2px rgb(0, 0, 0, 0.8);
 }
 
 .heading-beoordeel {
@@ -609,12 +620,85 @@ cite {
    transform: scale(1.1);
 }
 
-.team-name {
-}
+
 
 /**************************************** Here Ends the styling of Team *******************************************/
 
 /**************************************** Here Starts the styling of over ons *******************************************/
+
+
+.row-image-one {
+   background-image: url("../../images/over-ons-pics/KARYO\ foto\ 123.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+   justify-content: space-between;
+   padding: 2rem;
+   margin-top: 2rem;
+}
+
+.column-over-ons {
+   padding: 2rem;
+   margin: 1rem;
+   text-align: center;
+   background-color: rgb(255, 255, 255, 0.6);
+   margin-bottom: 5rem;
+}
+
+.title-col {
+   color: #ffb302;
+   font-weight: 600;
+   font-size: 18px;
+   text-transform: uppercase;
+   word-spacing: 2px;
+}
+
+.text-col {
+   color: black;
+   font-size: 14px;
+   padding: 2rem;
+}
+
+.gold-text {
+   font-size: 15px;
+   color: #ffb302;
+   font-weight: 600;
+}
+
+
+.row-image-two {
+   background-image: url("../../images/over-ons-pics/image00001.jpeg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+   justify-content: space-between;
+   padding: 2rem;
+   margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 p {
    margin-bottom: 0 !important;
 }
@@ -624,102 +708,13 @@ p {
 }
 
 .col-overons p {
-   font-size: 17px;
+   font-size: 13px;
 }
 
 .col-overons {
    font-size: 17px;
    padding: 3rem;
    color: black;
-}
-
-.colomns-overons-text {
-   padding: 2rem;
-   text-align: center;
-   color: black;
-   background-color: rgba(255, 255, 255, 0.2);
-   margin-left: 5%;
-}
-
-.colomns-overons-text-two {
-   padding: 2rem;
-   text-align: center;
-   color: black;
-   background-color: rgba(255, 255, 255, 0.2);
-   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-   margin-right: 4%;
-}
-
-.colomns-overons {
-   background-color: rgba(255, 255, 255, 0.4);
-   padding: 2rem;
-   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-   margin-left: 50%;
-   text-align: center;
-}
-
-@media only screen and (max-width: 680px) {
-   .colomns-overons {
-      background-color: rgba(255, 255, 255, 0.4);
-      padding: 2rem;
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-      text-align: center;
-      margin: 0 !important;
-   }
-
-   .col-wack {
-      margin: 0;
-   }
-
-   .colomns-overons-two {
-      background-color: rgba(255, 255, 255, 0.4);
-      padding: 2rem;
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-      text-align: center;
-   }
-
-   .colomns-overons-text {
-      padding: 2rem;
-      text-align: center;
-      color: black;
-      background-color: rgba(255, 255, 255, 0.2);
-      margin: 0 !important;
-   }
-
-   .colomns-overons-two {
-      background-color: rgba(255, 255, 255, 0.4);
-      padding: 2rem;
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-      text-align: center;
-      margin: 0 !important;
-   }
-}
-
-.colomns-overons-two {
-   background-color: rgba(255, 255, 255, 0.4);
-   padding: 2rem;
-   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-   text-align: center;
-   margin-left: 4%;
-}
-
-.image-colomn-one {
-   background-image: url("../../images/over-ons-pics/KARYO\ foto\ 123.png");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   padding: 2rem;
-   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-}
-
-.image-colomn-two {
-   background-image: url("../../images/over-ons-pics/image00001.jpeg");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   padding: 2rem;
-   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-   justify-content: space-between;
 }
 
 h1 {
@@ -753,11 +748,6 @@ h1 {
    font-size: 28px;
    text-align: center;
    padding-bottom: 1.9rem;
-   text-shadow: 2px 2px rgb(0, 0, 0, 0.8);
-}
-
-.heading-ref:hover {
-   color: goldenrod;
 }
 
 .referenties-list {
@@ -813,11 +803,10 @@ ul li,
    background-position: center;
 }
 
-.heading-footer {
+.heading-footer span {
    font-size: 28px;
    font-weight: 700;
-   color: goldenrod;
-   text-shadow: 2px 2px rgb(0, 0, 0, 0.8);
+   color: #5271ff;
    text-transform: uppercase;
 }
 
@@ -883,6 +872,7 @@ ul li,
 .big-text-styling {
    font-size: 28px;
    font-weight: 700;
+   color: goldenrod;
 }
 
 .small-text-styling {
@@ -936,5 +926,3 @@ ul li,
    filter: brightness(100%);
    transform: scale(1.045);
 }
-
-/***** Diensten PAGE!!! ***/
