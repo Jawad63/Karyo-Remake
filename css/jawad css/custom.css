@@ -375,6 +375,7 @@ hr {
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
+   background-color: rgba(255, 255, 255, 0.5) !important;
 }
 
 .parallax-under-go {
@@ -544,10 +545,9 @@ cite {
 .team-text-background {
    width: 300px;
    height: 200px;
-   background-color: white;
+   background-color: rgba(255, 255, 255, 0.5);
    position: relative;
    transition: all 0.5s ease;
-   border: 2px solid goldenrod;
 }
 
 .team-col:hover > .team-text-background {
@@ -642,16 +642,17 @@ cite {
    padding: 2rem;
    margin: 1rem;
    text-align: center;
-   background-color: rgb(255, 255, 255, 0.6);
+   background-color: rgb(255, 255, 255, 0.8);
    margin-bottom: 5rem;
 }
 
 .title-col {
    color: #ffb302;
-   font-weight: 600;
+   font-weight: 600; 
    font-size: 18px;
    text-transform: uppercase;
    word-spacing: 2px;
+
 }
 
 .text-col {
@@ -677,23 +678,6 @@ cite {
    padding: 2rem;
    margin-top: 2rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -762,13 +746,6 @@ ul li,
    font-size: 14px !important;
 }
 
-.something {
-   padding: 2rem 15% 0 15%;
-}
-
-.something-two {
-   padding: 2rem 10% 0 10%;
-}
 
 .refenties-title {
    color: goldenrod;
@@ -780,14 +757,7 @@ ul li,
 .text-on-pic {
    color: black;
 }
-.ref-one {
-   padding-left: 9%;
-}
 
-.ref-two {
-   padding-top: 6.3rem;
-   padding-left: 9%;
-}
 
 /**************************************** Here Ends the styling of over ons *******************************************/
 
@@ -926,3 +896,36 @@ ul li,
    filter: brightness(100%);
    transform: scale(1.045);
 }
+
+
+.over-ons-line {
+   border-bottom: 3px solid #5271ff !important;
+}
+
+.space-container-ref {
+  justify-content: space-evenly;
+}
+
+.parallax-referentie-one {
+   background-color: rgb(255, 255, 255, 0.7) !important;
+   padding: 3rem;
+   margin: 3rem;
+   font-size: 14px;
+   margin-bottom: 19rem;
+}
+
+
+.parallax-referentie-two {
+   background-color: rgb(255, 255, 255, 0.7) !important;
+   padding: 3rem;
+   margin: 3rem;
+}
+
+
+.parallax-referentie-three {
+   background-color: rgb(255, 255, 255, 0.7) !important;
+   padding: 3rem;
+   margin: 3rem;
+   margin-bottom: 19rem;
+}
+
