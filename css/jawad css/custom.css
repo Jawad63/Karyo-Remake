@@ -23,7 +23,6 @@
    padding: 0.7rem;
    margin: 0.2rem;
    font-size: 13px;
-   font-weight: 600;
    border: none;
    border-radius: 3px;
    background-color: #ffb302;
@@ -230,8 +229,7 @@ a {
 }
 
 hr {
-   color: white;
-   border: 2px solid white;
+   border: 1px solid #fff;
 }
 
 *,
@@ -383,7 +381,7 @@ hr {
 }
 
 .second-section {
-   background-color: whitesmoke;
+   padding-bottom: 1%;
 }
 
 .fa-inverse {
@@ -450,7 +448,7 @@ hr {
 /**************************************** Here Starts the styling of Beoordelingen *******************************************/
 
 .heading-beoordeel span {
-   color: #5271ff;
+   color: goldenrod;
    font-weight: 700;
    text-transform: uppercase;
    font-size: 28px;
@@ -459,7 +457,7 @@ hr {
 
 .heading-beoordeel {
    padding-bottom: 2%;
-   padding-top: 5%;
+   padding-top: 2%;
 }
 
 .col-wack {
@@ -475,16 +473,19 @@ hr {
 .comments {
    text-align: left;
    margin: 3rem;
+   padding: 2rem;
+   background-color: rgb(0, 0, 0, 0.5);
 }
 
 .comments-span {
    font-size: 16px;
    word-spacing: 5px;
+   color: white;
 }
 
 .hr-beoordelingen {
    padding: 1rem;
-   border-bottom: 2px solid darkgreen;
+   border-bottom: 2px solid goldenrod;
 }
 
 .fa-2x {
@@ -495,11 +496,92 @@ hr {
 cite {
    font-weight: 600;
    font-size: 17px;
+   color: #ffb302;
+}
+
+.fa-quote-left {
+   color: black;
 }
 
 /**************************************** Here Ends the styling of Beoordelingen *******************************************/
 
 /**************************************** Here Starts the styling of Team *******************************************/
+
+
+.row-team {
+   justify-content: space-evenly;
+}
+
+.team-column {
+   background-color: rgba(0, 0, 0, 0.4);
+}
+
+.center-image {
+   padding-top: 1rem;
+}
+
+.team-image-one {
+   background-image: url("/Images/Cards/Karyo\ Yusuf.png");
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 350px;
+   width: auto;
+}
+
+.team-image-two {
+   background-image: url("/Images/Cards/Karyo\ Aanvraag\ prijs.png");
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 350px;
+   width: auto;
+}
+
+.team-image-three {
+   background-image: url("/Images/Cards/karyo\ support\ 2.png");
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 350px;
+   width: auto;
+}
+
+.team-text {
+   padding: 2rem 20px;
+   margin-top: 1rem;
+   /* border: 2px solid #ffb302; */
+   color: white;
+   text-align: center;
+}
+
+.team-title {
+   color: #ffb302;
+   font-size: 23px;
+}
+
+.team-ocd {
+   font-size: 18px;
+   color: #ffb302;
+   text-transform: capitalize;
+   font-weight: 600;
+}
+
+.team-disc {
+   font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**********************************************/
 
 .card-style {
    margin: auto;
@@ -635,7 +717,6 @@ cite {
    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
    justify-content: space-between;
    padding: 2rem;
-   margin-top: 2rem;
 }
 
 .column-over-ons {
@@ -654,7 +735,7 @@ cite {
    word-spacing: 2px;
    border-bottom: 2px solid #ffb302;
    display: inline-block;
-   padding-bottom: 0.5rem;
+   padding-bottom: 1.5rem;
 
 }
 
@@ -663,6 +744,7 @@ cite {
    font-size: 14px;
    padding: 2rem;
    padding-bottom: 0;
+   padding-top: 1.5rem;
 }
 
 .smart-move {
@@ -670,7 +752,7 @@ cite {
    display: inline-block;
    padding-bottom: 2rem;
    color: rgb(255, 255, 255, 0.8);
-   width: 28rem;
+   width: 13rem;
 }
 
 
@@ -720,7 +802,7 @@ h1 {
 }
 
 .overons-bold {
-   color: goldenrod;
+   color: #ffb302;
    font-size: 15px;
 }
 
@@ -762,7 +844,7 @@ ul li,
 
 
 .refenties-title {
-   color: goldenrod;
+   color: #ffb302;
    font-weight: 700;
    text-transform: uppercase;
    padding-bottom: 2rem;
@@ -790,7 +872,7 @@ ul li,
 .heading-footer span {
    font-size: 28px;
    font-weight: 700;
-   color: #5271ff;
+   color: #ffb302;
    text-transform: uppercase;
 }
 
@@ -912,8 +994,11 @@ ul li,
 }
 
 
-.over-ons-line {
-   border-bottom: 3px solid #5271ff !important;
+.heading > .over-ons-line {
+   border: 2px solid #ffb302 !important;
+   padding: 0.5rem;
+   background-color: rgb(255, 255, 255, 0.5) !important;
+   color: goldenrod !important;
 }
 
 .space-container-ref {
@@ -944,5 +1029,11 @@ ul li,
    margin: 3rem;
    margin-bottom: 19rem;
    color: white;
+}
+
+.gold-karyo {
+   color: #ffb302;
+   font-size: 3rem;
+   font-weight: 600;
 }
 
