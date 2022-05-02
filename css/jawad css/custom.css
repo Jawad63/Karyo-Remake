@@ -33,7 +33,6 @@
    color: white;
 }
 
-
 html {
    font-size: 62.5%;
    font-family: "Noto Sans", sans-serif;
@@ -66,8 +65,6 @@ a {
 /*Here goes the styling for social icons: */
 
 /**************************************** Here Starts the styling of navbar *******************************************/
-
-
 
 .karyo-logo img {
    width: 150px;
@@ -166,7 +163,6 @@ a {
    font-weight: 900;
    color: #5271ff;
    text-shadow: 0.1rem 0.1rem 0.1rem black;
-
 }
 
 .slogan {
@@ -455,16 +451,11 @@ hr {
    letter-spacing: 3px;
    padding: 0.6rem;
    background-color: rgb(0, 0, 0, 0.4);
-
 }
 
 .heading-beoordeel {
    padding-bottom: 2%;
    padding-top: 2%;
-}
-
-.col-wack {
-   margin: 2rem;
 }
 
 /*
@@ -509,7 +500,6 @@ cite {
 /**************************************** Here Ends the styling of Beoordelingen *******************************************/
 
 /**************************************** Here Starts the styling of Team *******************************************/
-
 
 .row-team {
    justify-content: space-evenly;
@@ -574,16 +564,6 @@ cite {
 .team-disc {
    font-size: 14px;
 }
-
-
-
-
-
-
-
-
-
-
 
 /**********************************************/
 
@@ -706,12 +686,9 @@ cite {
    transform: scale(1.1);
 }
 
-
-
 /**************************************** Here Ends the styling of Team *******************************************/
 
 /**************************************** Here Starts the styling of over ons *******************************************/
-
 
 .row-image-one {
    background-image: url("../../images/over-ons-pics/KARYO\ foto\ 123.png");
@@ -725,7 +702,6 @@ cite {
 
 .column-over-ons {
    padding: 2rem;
-   margin: 1rem;
    text-align: center;
    background-color: rgb(0, 0, 0, 0.4);
    margin-bottom: 5rem;
@@ -733,14 +709,13 @@ cite {
 
 .title-col {
    color: #ffb302;
-   font-weight: 600; 
+   font-weight: 600;
    font-size: 18px;
    text-transform: uppercase;
    word-spacing: 2px;
    border-bottom: 2px solid #ffb302;
    display: inline-block;
    padding-bottom: 1.5rem;
-
 }
 
 .text-col {
@@ -759,14 +734,11 @@ cite {
    width: 13rem;
 }
 
-
-
 .gold-text {
    font-size: 15px;
    color: #ffb302;
    font-weight: 600;
 }
-
 
 .row-image-two {
    background-image: url("../../images/over-ons-pics/image00001.jpeg");
@@ -778,10 +750,6 @@ cite {
    padding: 2rem;
    margin-top: 2rem;
 }
-
-
-
-
 
 p {
    margin-bottom: 0 !important;
@@ -851,7 +819,6 @@ ul li,
    font-size: 14px !important;
 }
 
-
 .refenties-title {
    color: #ffb302;
    font-weight: 700;
@@ -862,7 +829,6 @@ ul li,
 .text-on-pic {
    color: black;
 }
-
 
 /**************************************** Here Ends the styling of over ons *******************************************/
 
@@ -1002,7 +968,6 @@ ul li,
    transform: scale(1.045);
 }
 
-
 .heading > .over-ons-line {
    border: 2px solid #ffb302 !important;
    padding: 0.5rem;
@@ -1011,7 +976,7 @@ ul li,
 }
 
 .space-container-ref {
-  justify-content: space-evenly;
+   justify-content: space-evenly;
 }
 
 .parallax-referentie-one {
@@ -1023,14 +988,12 @@ ul li,
    color: white;
 }
 
-
 .parallax-referentie-two {
    background-color: rgb(0, 0, 0, 0.5) !important;
    padding: 3rem;
    margin: 3rem;
    color: white;
 }
-
 
 .parallax-referentie-three {
    background-color: rgb(0, 0, 0, 0.5) !important;
@@ -1045,4 +1008,3 @@ ul li,
    font-size: 3rem;
    font-weight: 600;
 }
-
