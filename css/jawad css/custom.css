@@ -333,13 +333,18 @@ hr {
 .diensten-text-bottom {
    font-size: 20px;
    font-weight: 500;
-   padding: 15% 2rem 2rem 2rem;
+   margin: 10% 2rem 2rem 2rem;
+   padding: 1rem;
    text-align: center;
+   background-color: rgb(0, 0, 0, 0.5);
+   color: white;
+   font-size: 14px;
 }
 
 .span-black {
    font-weight: 900;
-   font-size: 20px;
+   font-size: 16px;
+   color: #ffb302;
 }
 
 .button-primary {
@@ -375,10 +380,6 @@ hr {
 
 .parallax-under-go {
    background-color: rgba(0, 0, 0, 0.2);
-}
-
-.second-section {
-   padding-bottom: 1%;
 }
 
 .fa-inverse {
@@ -781,6 +782,9 @@ h1 {
 
 .titles-size {
    font-size: 28px !important;
+   border: 2px solid #ffb302;
+   padding: 0.5rem;
+
 }
 
 .button-haktan {
