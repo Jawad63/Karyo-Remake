@@ -200,6 +200,14 @@ a {
     word-spacing: 4px;
 }
 
+.heading-left-offerte {
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffb302;
+    text-transform: capitalize;
+}
+
+
 .heading-line {
     color: #5271ff;
 }
