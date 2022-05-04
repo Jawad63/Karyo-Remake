@@ -14,7 +14,6 @@
    border: 2px solid goldenrod;
 }
 
-
 .heading-text {
    font-size: 2rem;
    color: #ffb302;
@@ -535,7 +534,7 @@ cite {
 }
 
 .team-image-three {
-   background-image: url("/Images/Cards/karyo\ support\ 2.png");
+   background-image: url("/Images/Cards/karyosupport.png");
    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
    background-repeat: no-repeat;
    background-size: cover;
@@ -693,7 +692,7 @@ cite {
 /**************************************** Here Starts the styling of over ons *******************************************/
 
 .row-image-one {
-   background-image: url("../../images/over-ons-pics/KARYO\ foto\ 123.png");
+   background-image: url("/Images/over-ons-pics/KARYO\ foto\ 123.png");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -743,7 +742,7 @@ cite {
 }
 
 .row-image-two {
-   background-image: url("../../images/over-ons-pics/image00001.jpeg");
+   background-image: url("/Images/over-ons-pics/image00001.jpeg");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -784,7 +783,6 @@ h1 {
    font-size: 28px !important;
    border: 2px solid #ffb302;
    padding: 0.5rem;
-
 }
 
 .button-haktan {
