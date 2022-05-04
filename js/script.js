@@ -27,11 +27,13 @@ const buttonTwo = document.getElementById('two');
 const buttonThree = document.getElementById('three');
 const buttonFour = document.getElementById('four');
 
-// Categories: 
+// Categories:
 const rowOne = document.getElementById('m&v');
 const rowTwo = document.getElementById('c&t');
 const rowThree = document.getElementById('n&b');
 const rowFour = document.getElementById('t&m');
+
+
 
 // text:
 const textOne = document.getElementById('text-one');
