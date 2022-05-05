@@ -811,8 +811,8 @@ h1 {
 
 .titles-size {
    font-size: 28px !important;
-   border: 2px solid #ffb302;
-   padding: 0.5rem;
+   background-color: rgb(0,0,0,0.5);
+   padding: 0.6rem;
 }
 
 .button-haktan {
