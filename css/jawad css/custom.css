@@ -768,6 +768,13 @@ cite {
    margin-top: 2rem;
 }
 
+.door-background {
+   background: url(/Images/new-pics/image00001.jpeg) no-repeat center;
+   height: 100%;
+   width: 100%;
+   background-size: cover;
+}
+
 p {
    margin-bottom: 0 !important;
 }
