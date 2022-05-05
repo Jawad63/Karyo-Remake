@@ -774,16 +774,12 @@ cite {
 }
 
 .door-background-two {
-   background: url("/Images/footer/parallax-tile.jpg") no-repeat center;
+   background: url("/Images/footer/parallax-tile.jpg");
    height: 100%;
    width: 100%;
+   min-height: 100%;
+   min-width: 100%;
    background-size: cover;
-}
-
-.door-background-three {
-   background: url("/Images/footer/parallax-tile.jpg") no-repeat center;
-   height: 100%;
-   width: 100%;
 }
 
 p {
@@ -1016,7 +1012,6 @@ ul li,
    padding: 3rem;
    margin: 3rem;
    font-size: 14px;
-   margin-bottom: 19rem;
    color: white;
 }
 
@@ -1031,7 +1026,6 @@ ul li,
    background-color: rgb(0, 0, 0, 0.5) !important;
    padding: 3rem;
    margin: 3rem;
-   margin-bottom: 19rem;
    color: white;
 }
 
