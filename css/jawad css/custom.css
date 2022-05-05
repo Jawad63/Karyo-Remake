@@ -780,6 +780,12 @@ cite {
    background-size: cover;
 }
 
+.door-background-three {
+   background: url("/Images/footer/parallax-tile.jpg") no-repeat center;
+   height: 100%;
+   width: 100%;
+}
+
 p {
    margin-bottom: 0 !important;
 }
