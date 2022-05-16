@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 * {
-    margin: auto;
     padding: auto;
     box-sizing: border-box;
 }
@@ -19,7 +18,7 @@ html {
 html,
 body {
     overflow-x: hidden;
-    font-family: "STIX Two Math", serif;
+    font-family: "Noto Sans", sans-serif;
     color: #505962;
 }
 
@@ -61,11 +60,11 @@ a {
     text-transform: uppercase;
     font-size: 14.4px;
     font-weight: 700;
-    color: goldenrod;
+    color: #ffb302;
 }
 
 .nav-links:hover {
-    color: #ffb302;
+    color: goldenrod;
 }
 
 .offerte {
@@ -81,7 +80,7 @@ a {
 }
 
 .btn {
-    background-color: goldenrod;
+    background-color: #ffb302;
     font-size: 13px;
     color: white;
 }
@@ -93,10 +92,23 @@ a {
     padding: 0.7rem;
 }
 
+.btn-hover:hover {
+    background-color: #ffb302;
+}
+
+.diensten-btn {
+    background-color: #ffb302;
+    margin-top: 2rem;
+}
+
+.diensten-btn:hover {
+    background-color: goldenrod;
+}
+
 .navbar-toggler {
     width: 47px;
     height: 34px;
-    background-color: #5271ff;
+    background-color: goldenrod;
 }
 
 .navbar-toggler .line {
@@ -106,7 +118,6 @@ a {
     background-color: #fff;
     margin-bottom: 5px;
 }
-
 .karyo {
     text-transform: uppercase;
     font-size: 5rem;
@@ -206,7 +217,6 @@ a {
     color: #ffb302;
     text-transform: capitalize;
 }
-
 
 .heading-line {
     color: #5271ff;
