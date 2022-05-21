@@ -56,6 +56,11 @@ const picThirty = document.getElementById("pic-30");
 const picThirtyOne = document.getElementById("pic-31");
 const picThirtyTwo = document.getElementById("pic-32");
 const picThirtyThree = document.getElementById("pic-33");
+const picThirtyFour = document.getElementById("pic-34");
+const picThirtyFive = document.getElementById("pic-35");
+const picThirtySix = document.getElementById("pic-36");
+const picThirtySeven = document.getElementById("pic-37");
+const picThirtyEight = document.getElementById("pic-38");
 
 // text:
 const textOne = document.getElementById("text-one");
@@ -143,6 +148,11 @@ buttonOne.onclick = function () {
   picThirtyOne.style.display = "none";
   picThirtyTwo.style.display = "none";
   picThirtyThree.style.display = "none";
+  picThirtyFour.style.display = "block";
+  picThirtyFive.style.display = "block";
+  picThirtySix.style.display = "block";
+  picThirtySeven.style.display = "block";
+  picThirtyEight.style.display = "block";
 
   //Text:
   textOne.style.display = "block";
@@ -186,6 +196,11 @@ buttonTwo.onclick = function () {
   picThirtyOne.style.display = "block";
   picThirtyTwo.style.display = "block";
   picThirtyThree.style.display = "block";
+  picThirtyFour.style.display = "none";
+  picThirtyFive.style.display = "none";
+  picThirtySix.style.display = "none";
+  picThirtySeven.style.display = "none";
+  picThirtyEight.style.display = "none";
 
   //Text:
   textOne.style.display = "none";
@@ -229,6 +244,11 @@ buttonThree.onclick = function () {
   picThirtyOne.style.display = "block";
   picThirtyTwo.style.display = "none";
   picThirtyThree.style.display = "block";
+  picThirtyFour.style.display = "none";
+  picThirtyFive.style.display = "none";
+  picThirtySix.style.display = "none";
+  picThirtySeven.style.display = "none";
+  picThirtyEight.style.display = "none";
 
   //Text:
   textOne.style.display = "none";
@@ -272,6 +292,11 @@ buttonFour.onclick = function () {
   picThirtyOne.style.display = "none";
   picThirtyTwo.style.display = "none";
   picThirtyThree.style.display = "none";
+  picThirtyFour.style.display = "block";
+  picThirtyFive.style.display = "block";
+  picThirtySix.style.display = "block";
+  picThirtySeven.style.display = "block";
+  picThirtyEight.style.display = "block";
 
   //Text:
   textOne.style.display = "none";
